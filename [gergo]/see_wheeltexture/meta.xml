@@ -1,0 +1,35 @@
+<meta>
+    <download_priority_group>-10</download_priority_group>
+    
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="client" function="applyTexture" />
+    <export type="client" function="isTextureIdValid" />
+    <export type="client" function="applyWheelTexture" />
+    <export type="client" function="getWheelTextureCount" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="texturechanger.fx" />
+    
+    <file src="textures/nissan/1.png" />
+    <file src="textures/nissan/2.png" />
+    <file src="textures/nissan/3.png" />
+    <file src="textures/nissanskyline/1.png" />
+    <file src="textures/nissanskyline/2.png" />
+    <file src="textures/nissanskyline/3.png" />
+    
+    <file src="defaults/drag/1.png" />
+    <file src="defaults/drag/2.png" />
+    <file src="defaults/drag/3.png" />
+    <file src="defaults/ronalt/1.png" />
+    <file src="defaults/ronalt/10.png" />
+    <file src="defaults/ronalt/2.png" />
+    <file src="defaults/ronalt/3.png" />
+    <file src="defaults/ronalt/4.png" />
+    <file src="defaults/ronalt/5.png" />
+    <file src="defaults/ronalt/6.png" />
+    <file src="defaults/ronalt/7.png" />
+    <file src="defaults/ronalt/8.png" />
+    <file src="defaults/ronalt/9.png" />
+</meta>

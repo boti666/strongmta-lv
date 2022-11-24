@@ -1,0 +1,10 @@
+<map edf:definitions="editor_main">
+    <object id="object (vegascrashbar04) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="7893" scale="1" doublesided="false" collisions="true" posX="-109.6" posY="-408.89999" posZ="0.6" rotX="0" rotY="0" rotZ="50"></object>
+    <object id="object (DYN_ROADBARRIER_6) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="1459" scale="1" doublesided="false" collisions="true" posX="-118.1" posY="-395.89999" posZ="0.7" rotX="0" rotY="0" rotZ="50"></object>
+    <object id="object (DYN_ROADBARRIER_6) (2)" breakable="true" interior="0" alpha="255" dimension="0" model="1459" scale="1" doublesided="false" collisions="true" posX="-120" posY="-398.10001" posZ="0.7" rotX="0" rotY="0" rotZ="49.999"></object>
+    <object id="object (DYN_ROADBARRIER_6) (3)" breakable="true" interior="0" alpha="255" dimension="0" model="1459" scale="1" doublesided="false" collisions="true" posX="-122.1" posY="-400.70001" posZ="0.7" rotX="0" rotY="0" rotZ="49.999"></object>
+    <object id="object (DYN_ROADBARRIER_6) (4)" breakable="true" interior="0" alpha="255" dimension="0" model="1459" scale="1" doublesided="false" collisions="true" posX="-124.1" posY="-402.89999" posZ="0.7" rotX="0" rotY="0" rotZ="51.999"></object>
+    <object id="object (blockpallet) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="1685" scale="1" doublesided="false" collisions="true" posX="-113.2" posY="-392.60001" posZ="1.2" rotX="0" rotY="0" rotZ="167.548"></object>
+    <object id="object (blockpallet) (2)" breakable="true" interior="0" alpha="255" dimension="0" model="1685" scale="1" doublesided="false" collisions="true" posX="-110.3" posY="-392.89999" posZ="1.2" rotX="0" rotY="0" rotZ="163.547"></object>
+    <object id="object (blockpallet) (3)" breakable="true" interior="0" alpha="255" dimension="0" model="1685" scale="1" doublesided="false" collisions="true" posX="-111.4" posY="-394.89999" posZ="1.2" rotX="0" rotY="0" rotZ="163.542"></object>
+</map>

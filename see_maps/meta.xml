@@ -1,0 +1,62 @@
+<meta>
+    
+    
+    <map src="maps/drag_airport.map" />
+    <map src="maps/quarrylake.map" />
+    <map src="maps/fc_hospital.map" />
+    <map src="maps/lv_crab_bay.map" />
+    <map src="maps/lasvegas.map" />
+    <map src="maps/borders.map" />
+    <map src="maps/hospital.map" />
+    <map src="maps/factoryjob.map" />
+    <map src="maps/truckjob.map" />
+    <map src="maps/postjob.map" />
+    <map src="maps/Redline_2018_11_14-hotfix.map" />
+    <map src="maps/Italian-Criminals-hq.map" />
+    <map src="maps/lvmpd_exterior_20191029.map" />
+    <map src="maps/lvmpd_interior_20191029.map" />
+    <map src="maps/swat_exterior_20191029.map" />
+    <map src="maps/swat_interior_20191029.map" />
+    <!--map src="maps/lampa.map" /-->
+    <map src="maps/strong_taxihq2022.map" />
+    <map src="maps/004HoodzmenBloods-20201212.map" />
+    <map src="maps/brownib_uj_mappolasa.map" />
+    <map src="maps/lv-whitewood.map" />
+    <map src="maps/lv-airport.map" />
+    <map src="maps/lv-blackfield.map" />
+    <map src="maps/lv-sheriff.map" />
+    <map src="maps/lv-gokart.map" />
+    <map src="maps/island.map" />
+
+    <map src="maps/csaksimankrisztian.map" />
+
+    <map src="maps/graves.map" />
+
+    <map src="maps/pumpedhot_birtok.map"/>
+    
+    <map src="maps/drentonbirtok.map" />
+
+    <map src="maps/redline-garages.map" />
+    
+    <map src="maps/projectlv-jesse.map" />
+    
+    <map src="maps/sysparkf.map" />
+    
+    <map src="maps/btdmap.map" />
+    
+    <map src="maps/cerakbirtok_s.map" />
+    
+    <map src="maps/turkish.map" />
+    
+    <map src="maps/brownibcarshop.map" />
+    
+    <map src="maps/strongmtabirtok2.map" />
+    
+    <map src="maps/freekhaze.map" />
+    <map src="maps/spanyol_map.map" />
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+</meta>

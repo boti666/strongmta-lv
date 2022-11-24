@@ -1,0 +1,18 @@
+<meta>
+    <download_priority_group>-19997</download_priority_group>
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    
+    <file src="files/images/electricpump.png" />
+    
+    <file src="files/models/charger.col" />
+    <file src="files/models/charger.dff" />
+    <file src="files/models/charger.txd" />
+    
+    <file src="files/models/hand.col" />
+    <file src="files/models/hand.dff" />
+    <file src="files/models/hand.txd" />
+    
+    <export type="shared" function="IsVehicleElectric" />
+</meta>

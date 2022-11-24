@@ -1,0 +1,30 @@
+<meta>
+    
+    <script src="sourceC.luac" type="client" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    
+    <file src="files/arrow.png" />
+    <file src="files/background.png" />
+    <file src="files/bin.png" />
+    <file src="files/boardmask.png" />
+    <file src="files/bout.png" />
+    <file src="files/fav.png" />
+    <file src="files/favoff.png" />
+    <file src="files/icons.png" />
+    <file src="files/ledoff.png" />
+    <file src="files/ledon.png" />
+    <file src="files/pin.png" />
+    <file src="files/pout.png" />
+    <file src="files/sliderBG.png" />
+    <file src="files/sliderC.png" />
+    <file src="files/station.png" />
+    <file src="files/volume.png" />
+    
+    <file src="files/impact.ttf" />
+    <file src="files/LEDCalculator.ttf" />
+    <file src="files/Roboto.ttf" />
+    
+    <file src="files/poweronoff.mp3" />
+    <file src="files/stationswitch.mp3" />
+    <min_mta_version client="1.5.6" server="1.5.6" />
+</meta>

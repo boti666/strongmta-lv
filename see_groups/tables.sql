@@ -1,0 +1,16 @@
+CREATE TABLE `groups` (
+	`groupId` INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	`balance` BIGINT(20) NOT NULL DEFAULT '0',
+	`description` VARCHAR(1024) NOT NULL,
+	`ranks` TEXT NOT NULL,
+	`ranks_pay` TEXT NOT NULL
+) ENGINE=MyISAM;
+
+CREATE TABLE `groupMembers` (
+	`memberId` INT(11) NOT NULL PRIMARY KEY AUTO_INCREMENT,
+	`groupId` INT(11) NOT NULL,
+	`characterId` INT(11) NOT NULL,
+	`rank` INT(11) DEFAULT '1',
+	`isLeader` VARCHAR(1) DEFAULT 'N',
+	`dutySkin` INT(3) NOT NULL DEFAULT '0'
+) ENGINE=MyISAM;

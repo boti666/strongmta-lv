@@ -1,0 +1,72 @@
+<meta>
+    
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="shared" function="getBoatPrice" />
+    
+    <min_mta_version server="1.5.7" client="1.5.7" />
+    
+    <file src="files/fonts/Roboto.ttf" />
+    <file src="files/fonts/mesmerize.ttf" />
+    
+    <file src="files/images/keys/a.png" />
+    <file src="files/images/keys/d.png" />
+    <file src="files/images/keys/e.png" />
+    <file src="files/images/keys/i.png" />
+    <file src="files/images/keys/l.png" />
+    <file src="files/images/keys/q.png" />
+    <file src="files/images/keys/s.png" />
+    <file src="files/images/keys/w.png" />
+    <file src="files/images/keys/bcksp.png" />
+    <file src="files/images/keys/enter.png" />
+    <file src="files/images/keys/left.png" />
+    <file src="files/images/keys/right.png" />
+    <file src="files/images/keys/mouse.png" />
+    
+    <file src="files/images/logos/alfa-romeo.png" />
+    <file src="files/images/logos/amc.png" />
+    <file src="files/images/logos/audi.png" />
+    <file src="files/images/logos/bmw.png" />
+    <file src="files/images/logos/bugatti.png" />
+    <file src="files/images/logos/cadillac.png" />
+    <file src="files/images/logos/chevrolet.png" />
+    <file src="files/images/logos/dodge.png" />
+    <file src="files/images/logos/ducati.png" />
+    <file src="files/images/logos/ferrari.png" />
+    <file src="files/images/logos/ford.png" />
+    <file src="files/images/logos/gmc.png" />
+    <file src="files/images/logos/gta-sa.png" />
+    <file src="files/images/logos/harley-davidson.png" />
+    <file src="files/images/logos/honda.png" />
+    <file src="files/images/logos/hummer.png" />
+    <file src="files/images/logos/jaguar.png" />
+    <file src="files/images/logos/jeep.png" />
+    <file src="files/images/logos/lada.png" />
+    <file src="files/images/logos/lamborghini.png" />
+    <file src="files/images/logos/land-rover.png" />
+    <file src="files/images/logos/lexus.png" />
+    <file src="files/images/logos/lincoln.png" />
+    <file src="files/images/logos/mazda.png" />
+    <file src="files/images/logos/mclaren.png" />
+    <file src="files/images/logos/mercedes-benz.png" />
+    <file src="files/images/logos/mitsubishi.png" />
+    <file src="files/images/logos/nissan.png" />
+    <file src="files/images/logos/opel.png" />
+    <file src="files/images/logos/peugeot.png" />
+    <file src="files/images/logos/plymouth.png" />
+    <file src="files/images/logos/pontiac.png" />
+    <file src="files/images/logos/porsche.png" />
+    <file src="files/images/logos/renault.png" />
+    <file src="files/images/logos/seat.png" />
+    <file src="files/images/logos/subaru.png" />
+    <file src="files/images/logos/suzuki.png" />
+    <file src="files/images/logos/toyota.png" />
+    <file src="files/images/logos/volkswagen.png" />
+    <file src="files/images/logos/wiesmann.png" />
+    
+    <file src="files/sounds/cammove.mp3" />
+    <file src="files/sounds/showroom.mp3" />
+</meta>

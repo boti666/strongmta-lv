@@ -1,0 +1,68 @@
+<meta>
+    <download_priority_group>10000</download_priority_group>
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    <script src="sourceS.lua" />
+    
+    <file src="files/Ubuntu-M.ttf" />
+    
+    <file src="files/vehicles/senna.strong" />
+    <file src="files/vehicles/senna.txd" />
+    <file src="files/vehicles/911turbo.strong" />
+    <file src="files/vehicles/911turbo.txd" />
+    <file src="files/vehicles/demon.strong" />
+    <file src="files/vehicles/demon.txd" />
+    <file src="files/vehicles/amgone.strong" />
+    <file src="files/vehicles/amgone.txd" />
+    
+    <file src="files/vehicles/pb18.strong" />
+    <file src="files/vehicles/pb18.txd" />
+    
+    <file src="files/vehicles/models.strong" />
+    <file src="files/vehicles/models.txd" />
+    <file src="files/vehicles/modelx.strong" />
+    <file src="files/vehicles/modelx.txd" />
+    <file src="files/vehicles/roadster.strong" />
+    <file src="files/vehicles/roadster.txd" />
+    <file src="files/vehicles/charger.strong" />
+    <file src="files/vehicles/charger.txd" />
+    
+    <file src="files/vehicles/chiron.strong" />
+    <file src="files/vehicles/chiron.txd" />
+    
+    <file src="files/vehicles/scooby.strong" />
+    <file src="files/vehicles/scooby.txd" />
+    
+    <file src="files/vehicles/brabus800.strong" />
+    <file src="files/vehicles/brabus800.txd" />
+    
+    <file src="files/vehicles/cls63.strong" />
+    <file src="files/vehicles/cls63.txd" />
+    
+    <file src="files/vehicles/pontiacgto.strong" />
+    <file src="files/vehicles/pontiacgto.txd" />
+    
+    <file src="files/vehicles/bmwx6m.strong" />
+    <file src="files/vehicles/bmwx6m.txd" />
+    
+    <file src="files/vehicles/brownibm5e60.strong" />
+    <file src="files/vehicles/brownibm5e60.txd" />
+    
+    <file src="files/vehicles/bmwm5touring.strong" />
+    <file src="files/vehicles/bmwm5touring.txd" />
+    
+    <file src="files/vehicles/bmwi8.strong" />
+    <file src="files/vehicles/bmwi8.txd" />
+    
+    <export type="shared" function="getVehicleCustomName" />
+    <export type="shared" function="getVehicleModel" />
+    <export type="shared" function="GetVehicleDefaultID" />
+    
+    
+    <min_mta_version client="1.5.9" server="1.5.9" />
+    
+    
+    
+    
+</meta>

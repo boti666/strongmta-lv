@@ -1,0 +1,20 @@
+<meta>
+    
+    
+    <script type="client" src="sourceC.luac" validate="false" cache="false" />
+    
+    <export type="client" function="startMinigame" />
+    <export type="client" function="endMinigame" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/Roboto.ttf" />
+    
+    <file src="files/ghero/black.png" />
+    <file src="files/ghero/ring1.png" />
+    <file src="files/ghero/ring2.png" />
+    <file src="files/ghero/ring3.png" />
+    <file src="files/ghero/arrow.png" />
+    <file src="files/ghero/correct.mp3" />
+    <file src="files/ghero/wrong.mp3" />
+</meta>

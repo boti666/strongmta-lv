@@ -1,0 +1,74 @@
+<meta>
+    <script type="client" src="sourceC.luac" cache="false" />
+    <script type="client" src="lightC.luac" cache="false" />
+    
+    <min_mta_version server="1.5.7" client="1.5.7" />
+    
+    <file src="files/texturechanger.fx" />
+    
+    <file src="files/vehiclelights_on.png" />
+    <file src="files/ab_wuzibet.png" />
+    <file src="files/airport1_64.png" />
+    <file src="files/airport2_64.png" />
+    <file src="files/ap_screens1.png" />
+    <file src="files/arch_plans.png" />
+    <file src="files/benson92adverts256.png" />
+    <file src="files/bloodpool_64.png" />
+    <file src="files/BLUE_FABRIC.png" />
+    <file src="files/bobobillboard1.png" />
+    <file src="files/bubbles.png" />
+    <file src="files/cj_binders.png" />
+    <file src="files/CJ_BS_MENU5.png" />
+    <file src="files/cj_painting1.png" />
+    <file src="files/cj_painting19.png" />
+    <file src="files/cj_painting30.png" />
+    <file src="files/cj_painting36.png" />
+    <file src="files/cj_painting7.png" />
+    <file src="files/cj_sheetmetal2.png" />
+    <file src="files/CJ_SPRUNK_DIRTY.png" />
+    <file src="files/CJ_SPRUNK_FRONT2.png" />
+    <file src="files/CJ_SPRUNK_FRONT2LOD.png" />
+    <file src="files/collisionsmoke.png" />
+    <file src="files/conc_slabgrey_256128.png" />
+    <file src="files/coronastar.png" />
+    <file src="files/fireball6.png" />
+    <file src="files/forlease_law.png" />
+    <file src="files/gen_monitor.png" />
+    <file src="files/gokart.png" />
+    <file src="files/headlight.png" />
+    <file src="files/headlight1.png" />
+    <file src="files/kmb_atm_sign.png" />
+    <file src="files/LAInside_Tracksign1.png" />
+    <file src="files/LAInside_Tracksign2.png" />
+    <file src="files/lamp_shad_64.png" />
+    <file src="files/michelle_car1.png" />
+    <file src="files/michelle_car3.png" />
+    <file src="files/mp_aldeasign.png" />
+    <file src="files/mp_cop_ceilingtile.png" />
+    <file src="files/mp_cop_chief.png" />
+    <file src="files/mp_cop_signs.png" />
+    <file src="files/mp_cop_tile.png" />
+    <file src="files/mp_cop_wall.png" />
+    <file src="files/mp_cop_wallpink.png" />
+    <file src="files/notice01.png" />
+    <file src="files/otb_bigsignf.png" />
+    <file src="files/otb_numbers.png" />
+    <file src="files/particleskid.png" />
+    <file src="files/plateback.png" />
+    <file src="files/plateback1.png" />
+    <file src="files/plateback2.png" />
+    <file src="files/plateback3.png" />
+    <file src="files/prolaps02.png" />
+    <file src="files/semi1dirty.png" />
+    <file src="files/siteM16.png" />
+    <file src="files/sjmlode93.png" />
+    <file src="files/smoke.png" />
+    <file src="files/smokeII_3.png" />
+    <file src="files/snakefarmsign.png" />
+    <file src="files/SNIPERcrosshair.png" />
+    <file src="files/stadion.png" />
+    <file src="files/vehiclelights128.png" />
+    <file src="files/vehiclelightson128.png" />
+    <file src="files/vehicleshatter128.png" />
+    <file src="files/waterclear256.png" />
+</meta>

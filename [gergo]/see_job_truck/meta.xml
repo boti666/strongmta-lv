@@ -1,0 +1,46 @@
+<meta>
+    <download_priority_group>-10</download_priority_group>
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/fonts/Roboto.ttf" />
+    <file src="files/fonts/lunabar.ttf" />
+    <file src="files/fonts/hand.otf" />
+    
+    <file src="files/models/ajto_mesh.col" />
+    <file src="files/models/ajto_mesh.dff" />
+    <file src="files/models/tolo.col" />
+    <file src="files/models/tolo.txd" />
+    <file src="files/models/tolo.dff" />
+    
+    <file src="files/sounds/hydra.mp3" />
+    <file src="files/sounds/close.mp3" />
+    
+    <file src="files/images/stripe.png" />
+    <file src="files/images/open.png" />
+    <file src="files/images/close.png" />
+    <file src="files/images/down.png" />
+    <file src="files/images/up.png" />
+    <file src="files/images/waybill.png" />
+    <file src="files/images/closeicon.png" />
+    
+    <file src="files/images/items/acid.png" />
+    <file src="files/images/items/batt.png" />
+    <file src="files/images/items/brake.png" />
+    <file src="files/images/items/carrot.png" />
+    <file src="files/images/items/corn.png" />
+    <file src="files/images/items/engineoil.png" />
+    <file src="files/images/items/fuel.png" />
+    <file src="files/images/items/melon.png" />
+    <file src="files/images/items/oil.png" />
+    <file src="files/images/items/orange.png" />
+    <file src="files/images/items/pear.png" />
+    <file src="files/images/items/pepper.png" />
+    <file src="files/images/items/strawb.png" />
+    <file src="files/images/items/tv.png" />
+    <file src="files/images/items/washm.png" />
+</meta>

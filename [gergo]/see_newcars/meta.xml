@@ -1,0 +1,19 @@
+<meta>
+    <min_mta_version client="1.5.9" server="1.5.9" />
+    
+    <script src="sourceC.luac" type="client" cache="false" />
+    <script src="sourceS.lua" />
+    
+    <file src="mods/611.see" />
+    <file src="mods/611.txd" />
+    <file src="mods/alpha.see" />
+    <file src="mods/alpha.txd" />
+    <file src="mods/infernus.see" />
+    <file src="mods/infernus.txd" />
+    <file src="mods/premier.dff" />
+    <file src="mods/premier.txd" />
+    <file src="mods/tampa.see" />
+    <file src="mods/tampa.txd" />
+    <file src="mods/hotring3.see" />
+    <file src="mods/hotring3.txd" />
+</meta>

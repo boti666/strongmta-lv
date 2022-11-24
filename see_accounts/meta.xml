@@ -1,0 +1,66 @@
+<meta>
+    <download_priority_group>-1</download_priority_group>
+    
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="shared" function="showInfo" />
+    
+    <min_mta_version client="1.5.8-9.20785" />
+    
+    <file src="files/square.png" />
+    <file src="files/arrow.png" />
+    <file src="files/register_email_active.png" />
+    <file src="files/register_pw_active.png" />
+    <file src="files/register_user_active.png" />
+    <file src="files/register_main_active.png" />
+    <file src="files/register_main.png" />
+    <file src="files/passport.png" />
+    <file src="files/lights.png" />
+    <file src="files/main.png" />
+    <file src="files/user_active.png" />
+    <file src="files/pw_active.png" />
+    <file src="files/remember_on.png" />
+    <file src="files/register_inactive.png" />
+    <file src="files/register_active.png" />
+    <file src="files/login_inactive.png" />
+    <file src="files/login_active.png" />
+    <file src="files/logo1.png" />
+    <file src="files/logo2.png" />
+    <file src="files/logo3.png" />
+    <file src="files/loginMusic_0.mp3" />
+    <file src="files/loginMusic_1.mp3" />
+    <file src="files/loginMusic_2.mp3" />
+    <file src="files/loginMusic_3.mp3" />
+    <file src="files/loginMusic_4.mp3" />
+    <file src="files/loginMusic_5.mp3" />
+    <file src="files/loginMusic_6.mp3" />
+    <file src="files/loginMusic_7.mp3" />
+    
+    
+    <file src="files/Roboto.ttf" />
+    <file src="files/RobotoL.ttf" />
+    <file src="files/RobotoB.ttf" />
+    <file src="files/lunabar.ttf" />
+    
+    <file src="files/key1.mp3" />
+    <file src="files/key2.mp3" />
+    <file src="files/backspace.mp3" />
+    <file src="files/bubble.mp3" />
+    <file src="files/bong.mp3" />
+    <file src="files/login.ogg" />
+    
+    <file src="files/infobox/round.png" />
+    <file src="files/infobox/i.png" />
+    <file src="files/infobox/s.png" />
+    <file src="files/infobox/w.png" />
+    <file src="files/infobox/e.png" />
+    <file src="files/infobox/i.mp3" />
+    <file src="files/infobox/s.mp3" />
+    <file src="files/infobox/w.mp3" />
+    <file src="files/infobox/e.mp3" />
+    
+    <file src="files/at400.txd" />
+    <file src="files/at400.dff" />
+</meta>

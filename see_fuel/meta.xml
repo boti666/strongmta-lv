@@ -1,0 +1,36 @@
+<meta>
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/fonts/counter.ttf" />
+    <file src="files/fonts/counter2.ttf" />
+    <file src="files/fonts/ThermalPrinter.ttf" />
+    <file src="files/fonts/Roboto.ttf" />
+    <file src="files/fonts/lunabar.ttf" />
+    
+    <file src="files/sounds/fuelfill.mp3" />
+    <file src="files/sounds/fuelover.mp3" />
+    <file src="files/sounds/fuelpickupesoff.mp3" />
+    <file src="files/sounds/fuelstart.mp3" />
+    <file src="files/sounds/tankfull.mp3" />
+    <file src="files/sounds/sign.mp3" />
+    
+    <file src="files/shaders/texturechanger.fx" />
+    
+    <file src="files/images/circle.png" />
+    <file src="files/images/fuel.png" />
+    <file src="files/images/arak_uv.png" />
+    <file src="files/images/receipt1.png" />
+    <file src="files/images/receipt2.png" />
+    <file src="files/images/receipt3.png" />
+    <file src="files/images/receipt4.png" />
+    <file src="files/images/receipt5.png" />
+    <file src="files/images/receipt6.png" />
+    <file src="files/images/receipt7.png" />
+    <file src="files/images/receipt8.png" />
+    <file src="files/images/receipt9.png" />
+</meta>

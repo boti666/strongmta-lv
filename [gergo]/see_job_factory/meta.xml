@@ -1,0 +1,18 @@
+<meta>
+    <download_priority_group>-10</download_priority_group>
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/Roboto.ttf" />
+    <file src="files/ocr.ttf" />
+    
+    <file src="files/sign1.png" />
+    <file src="files/sign2.png" />
+    <file src="files/sign3.png" />
+    
+    <file src="files/stripe.png" />
+</meta>

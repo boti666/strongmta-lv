@@ -1,0 +1,68 @@
+<meta>
+    <download_priority_group>1</download_priority_group>
+    
+    
+    
+    <script type="client" src="matrix/complex.luac" cache="false" />
+    <script type="client" src="matrix/matrix.luac" cache="false" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="client" function="setActiveShader" />
+    <export type="client" function="getActiveShader" />
+    
+    <file src="files/shaders/addPalette.fx" />
+    <file src="files/shaders/brightness.fx" />
+    <file src="files/shaders/brightPass.fx" />
+    <file src="files/shaders/addBlend.fx" />
+    <file src="files/shaders/blurH.fx" />
+    <file src="files/shaders/blurV.fx" />
+    <file src="files/shaders/dBlurH.fx" />
+    <file src="files/shaders/dBlurV.fx" />
+    <file src="files/shaders/mta-helper.fx" />
+    <file src="files/shaders/car_paint.fx" />
+    <file src="files/shaders/car_refgrun.fx" />
+    <file src="files/shaders/car_refgrunL.fx" />
+    <file src="files/shaders/car_refgene.fx" />
+    <file src="files/shaders/water.fx" />
+    <file src="files/shaders/water_ref.fx" />
+    <file src="files/shaders/bloom_combine.fx" />
+    <file src="files/shaders/bloom_extract.fx" />
+    <file src="files/shaders/contrast.fx" />
+    <file src="files/shaders/modulation.fx" />
+    <file src="files/shaders/detail.fx" />
+    <file src="files/shaders/radial_blur.fx" />
+    
+    <file src="files/palettes/enbpalette1.png" />
+    <file src="files/palettes/enbpalette2.png" />
+    <file src="files/palettes/enbpalette3.png" />
+    <file src="files/palettes/enbpalette4.png" />
+    <file src="files/palettes/enbpalette5.png" />
+    <file src="files/palettes/enbpalette6.png" />
+    <file src="files/palettes/enbpalette7.png" />
+    <file src="files/palettes/enbpalette8.png" />
+    <file src="files/palettes/enbpalette9.png" />
+    <file src="files/palettes/enbpalette10.png" />
+    <file src="files/palettes/enbpalette11.png" />
+    <file src="files/palettes/enbpalette12.png" />
+    <file src="files/palettes/enbpalette13.png" />
+    <file src="files/palettes/enbpalette14.png" />
+    
+    <file src="files/images/smallnoise3d.dds" />
+    <file src="files/images/cube_env256.dds" />
+    <file src="files/images/cube_veh256.dds" />
+    <file src="files/images/vignette1.dds" />
+    
+    <file src="files/images/dirty.png" />
+    <file src="files/images/detail04.png" />
+    <file src="files/images/detail22.png" />
+    <file src="files/images/detail29.png" />
+    <file src="files/images/detail35T.png" />
+    <file src="files/images/detail55.png" />
+    <file src="files/images/detail58.png" />
+    <file src="files/images/detail63.png" />
+    <file src="files/images/detail68.png" />
+    
+    <file src="files/images/radial_mask.tga" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+</meta>

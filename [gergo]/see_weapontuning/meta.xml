@@ -1,0 +1,59 @@
+<meta>
+    <download_priority_group>-3</download_priority_group>
+    
+    <script type="client" src="sourceG.luac" cache="false" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="client" function="previewWeapon" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/Roboto.ttf" />
+    <file src="files/texturechanger.fx" />
+    
+    <file src="files/ak/camo.png" />
+    <file src="files/ak/camo2.png" />
+    <file src="files/ak/camo3.png" />
+    <file src="files/ak/gold.png" />
+    <file src="files/ak/gold2.png" />
+    <file src="files/ak/kitty.png" />
+    <file src="files/ak/silver.png" />
+    <file src="files/ak/summerak.png" />
+    <file src="files/ak/fadeak.png" />
+    
+    
+    <file src="files/deagle/camo.png" />
+    <file src="files/deagle/gold.png" />
+    
+    <file src="files/knife/knife1.png" />
+    <file src="files/knife/knife2.png" />
+    <file src="files/knife/knife3.png" />
+    <file src="files/knife/summerknife.png" />
+    
+    
+    <file src="files/p90/1.png" />
+    <file src="files/p90/2.png" />
+    <file src="files/p90/3.png" />
+    <file src="files/p90/4.png" />
+    <file src="files/p90/5.png" />
+    <file src="files/p90/6.png" />
+    <file src="files/p90/7.png" />
+    <file src="files/p90/8.png" />
+    <file src="files/p90/9.png" />
+    
+    <file src="files/shotgun/1.png" />
+    <file src="files/shotgun/2.png" />
+    <file src="files/shotgun/3.png" />
+    <file src="files/shotgun/4.png" />
+    
+    <file src="files/silenced/camo.png" />
+    <file src="files/silenced/neon.png" />
+    
+    <file src="files/sniper/camo.png" />
+    <file src="files/sniper/camo2.png" />
+    
+    <file src="files/uzi/uzi1.png" />
+    <file src="files/uzi/uzi2.png" />
+    <file src="files/uzi/uzi3.png" />
+    <file src="files/uzi/uzi4.png" />
+</meta>

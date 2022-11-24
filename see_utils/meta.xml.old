@@ -1,0 +1,8 @@
+<meta> 
+	
+
+	<script src="scriptC.luac" type="client" cache="false" />
+
+	<export function="formatDate" type="client" />
+
+</meta>

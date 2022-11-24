@@ -1,0 +1,121 @@
+<meta>
+    <download_priority_group>-3</download_priority_group>
+    
+    <script type="shared" src="sourceG.lua" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.lua" cache="false" />
+    
+    <script type="shared" src="handling/sourceG.lua" cache="false" />
+    <script type="server" src="handling/sourceS.lua" />
+    
+    <script type="client" src="color/sourceC.lua" cache="false" />
+    <script type="client" src="neon/sourceC.lua" cache="false" />
+    <script type="client" src="door/sourceC.lua" cache="false" />
+    <script type="client" src="airride/sourceC.lua" cache="false" />
+    <script type="client" src="drivetype/sourceC.lua" cache="false" />
+    
+    <export type="shared" function="applyHandling" />
+    <export type="server" function="makeTuning" />
+    <export type="shared" function="getHandlingTable" />
+    <export type="shared" function="getHandlingProperty" />
+    <export type="client" function="isHaveSupercharger" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/fonts/Roboto.ttf" />
+    
+    <file src="files/logo.png" />
+    <file src="files/block.txd" />
+    <file src="files/block.dff" />
+    <file src="files/colorpicker.png" />
+    <file src="files/light.png" />
+    <file src="files/luminance.png" />
+    <file src="files/luminance2.png" />
+    
+    <file src="files/nav/enter.png" />
+    <file src="files/nav/backspace.png" />
+    <file src="files/nav/up.png" />
+    <file src="files/nav/down.png" />
+    <file src="files/nav/mouse.png" />
+    
+    <file src="files/sounds/menunavigate.mp3" />
+    <file src="files/sounds/menuselect.mp3" />
+    <file src="files/sounds/menuback.mp3" />
+    <file src="files/sounds/cammove.mp3" />
+    <file src="files/sounds/newpart.mp3" />
+    <file src="files/sounds/paint.mp3" />
+    <file src="files/sounds/prompt.mp3" />
+    <file src="files/sounds/promptaccept.mp3" />
+    <file src="files/sounds/promptdecline.mp3" />
+    
+    <file src="files/drivetype/panel.png" />
+    <file src="files/drivetype/led1.png" />
+    <file src="files/drivetype/led2.png" />
+    
+    <file src="files/airride/panel.png" />
+    <file src="files/airride/arrow.png" />
+    <file src="files/airride/led.png" />
+    <file src="files/airride/ledgreen.png" />
+    <file src="files/airride/ledorange.png" />
+    <file src="files/airride/ledred.png" />
+    <file src="files/airride/beep1.mp3" />
+    <file src="files/airride/beep2.mp3" />
+    <file src="files/airride/airride.mp3" />
+    
+    <file src="files/neon/neon.col" />
+    <file src="files/neon/red.dff" />
+    <file src="files/neon/blue.dff" />
+    <file src="files/neon/green.dff" />
+    <file src="files/neon/yellow.dff" />
+    <file src="files/neon/pink.dff" />
+    <file src="files/neon/white.dff" />
+    
+    <file src="files/icons/diff.png" />
+    <file src="files/icons/dollar.png" />
+    <file src="files/icons/extra.png" />
+    <file src="files/icons/felszerelt.png" />
+    <file src="files/icons/fenyezes.png" />
+    <file src="files/icons/free.png" />
+    <file src="files/icons/gps.png" />
+    <file src="files/icons/horn.png" />
+    <file src="files/icons/misc.png" />
+    <file src="files/icons/optika.png" />
+    <file src="files/icons/pp.png" />
+    <file src="files/icons/sch.png" />
+    <file src="files/icons/slock.png" />
+    <file src="files/icons/speedo.png" />
+    <file src="files/icons/spinner.png" />
+    <file src="files/icons/teljesitmeny.png" />
+    <file src="files/icons/variant.png" />
+    
+    <file src="files/icons/performance/ecu.png" />
+    <file src="files/icons/performance/fek.png" />
+    <file src="files/icons/performance/felfugg.png" />
+    <file src="files/icons/performance/gumi.png" />
+    <file src="files/icons/performance/motor.png" />
+    <file src="files/icons/performance/nitro.png" />
+    <file src="files/icons/performance/sulycsokkentes.png" />
+    <file src="files/icons/performance/turbo.png" />
+    <file src="files/icons/performance/valto.png" />
+    
+    <file src="files/icons/optical/airride.png" />
+    <file src="files/icons/optical/elso.png" />
+    <file src="files/icons/optical/felni.png" />
+    <file src="files/icons/optical/gumiszelesseg.png" />
+    <file src="files/icons/optical/hatso.png" />
+    <file src="files/icons/optical/hatsolampa.png" />
+    <file src="files/icons/optical/hidra.png" />
+    <file src="files/icons/optical/izzo.png" />
+    <file src="files/icons/optical/kipufogo.png" />
+    <file src="files/icons/optical/kmh.png" />
+    <file src="files/icons/optical/kuszob.png" />
+    <file src="files/icons/optical/legterelo.png" />
+    <file src="files/icons/optical/lsd.png" />
+    <file src="files/icons/optical/meghajtas.png" />
+    <file src="files/icons/optical/motorhaz.png" />
+    <file src="files/icons/optical/neon.png" />
+    <file src="files/icons/optical/offroad.png" />
+    <file src="files/icons/optical/plate.png" />
+    <file src="files/icons/optical/speedtrap.png" />
+    <file src="files/icons/optical/tetolegterelo.png" />
+</meta>

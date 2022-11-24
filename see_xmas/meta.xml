@@ -1,0 +1,12 @@
+<meta>
+
+	<script src="sourceC.lua" type="client" cache="false" />
+
+	<file src="bcg.jpg" />
+	<file src="screen.png" />
+	<file src="xcross.png" />
+	<file src="Roboto.ttf" />
+	<file src="texturechanger.fx" />
+	<file src="text.mp3" />
+
+</meta>

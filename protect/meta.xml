@@ -1,0 +1,8 @@
+<meta>
+    
+    <oop>true</oop>
+    
+    <script src="utils/underscore.lua" />
+    <script src="sourceS.lua" />
+    
+</meta>

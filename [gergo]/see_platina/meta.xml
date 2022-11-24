@@ -1,0 +1,20 @@
+<meta>
+    <download_priority_group>-10</download_priority_group>
+    
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="client" function="applyTexture" />
+    <export type="client" function="isTextureIdValid" />
+    <export type="client" function="applyPaintJob" />
+    <export type="client" function="getPaintJobCount" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/gold.png" />
+    
+    
+    <file src="files/hl_gold.fx" />
+    
+    
+    
+</meta>

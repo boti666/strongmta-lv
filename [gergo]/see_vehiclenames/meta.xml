@@ -1,0 +1,10 @@
+<meta>
+    <download_priority_group>1</download_priority_group>
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    
+    <export type="shared" function="getCustomVehicleName" />
+    <export type="shared" function="getCustomVehicleManufacturer" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+</meta>

@@ -1,0 +1,9 @@
+<metaConfig>
+    
+    <oop>true</oop>
+    
+    <script src="sourceG.luac" type="shared" cache="false" />
+    
+    <export function="getTriggerName" type="shared" />
+    
+</metaConfig>

@@ -1,0 +1,56 @@
+<meta>
+    <compiled>true</compiled>
+    <script src="0x50423040cc" type="client" cache="false"></script>
+    <script src="0x1235d9d31cc" type="client" cache="false"></script>
+    <script src="0x54b78bbbcc" type="client" cache="false"></script>
+    <min_mta_version client="1.5.9" server="1.5.9"></min_mta_version>
+    <file src="0x10df1284c"></file>
+    <file src="0x1678b5c98"></file>
+    <file src="0x5990d35d"></file>
+    <export function="createPointLight" type="client"></export>
+    <export function="createSpotLight" type="client"></export>
+    <export function="destroyLight" type="client"></export>
+    <export function="setLightDimension" type="client"></export>
+    <export function="setLightInterior" type="client"></export>
+    <export function="setLightDirection" type="client"></export>
+    <export function="setLightPosition" type="client"></export>
+    <export function="setLightColor" type="client"></export>
+    <export function="setLightAttenuation" type="client"></export>
+    <export function="setLightNormalShading" type="client"></export>
+    <export function="setLightFalloff" type="client"></export>
+    <export function="setLightTheta" type="client"></export>
+    <export function="setLightPhi" type="client"></export>
+    <export function="getLightDimension" type="client"></export>
+    <export function="getLightInterior" type="client"></export>
+    <export function="getLightDirection" type="client"></export>
+    <export function="getLightPosition" type="client"></export>
+    <export function="getLightColor" type="client"></export>
+    <export function="getLightAttenuation" type="client"></export>
+    <export function="getLightNormalShading" type="client"></export>
+    <export function="getLightFalloff" type="client"></export>
+    <export function="getLightTheta" type="client"></export>
+    <export function="getLightPhi" type="client"></export>
+    <export function="setMaxLights" type="client"></export>
+    <export function="setShadersLayered" type="client"></export>
+    <export function="setWorldNormalShading" type="client"></export>
+    <export function="setNormalShading" type="client"></export>
+    <export function="setGenerateBumpNormals" type="client"></export>
+    <export function="setTextureBrightness" type="client"></export>
+    <export function="setLightsDistFade" type="client"></export>
+    <export function="setLightsEffectRange" type="client"></export>
+    <export function="setShaderForcedOn" type="client"></export>
+    <export function="setShaderTimeOut" type="client"></export>
+    <export function="setShaderNightMod" type="client"></export>
+    <export function="setShaderDayTime" type="client"></export>
+    <export function="setShaderPedDiffuse" type="client"></export>
+    <export function="setDirLightEnable" type="client"></export>
+    <export function="setDirLightDirection" type="client"></export>
+    <export function="setDirLightColor" type="client"></export>
+    <export function="setDirLightRange" type="client"></export>
+    <export function="setDiffLightEnable" type="client"></export>
+    <export function="setDiffLightColor" type="client"></export>
+    <export function="setDiffLightRange" type="client"></export>
+    <export function="setNightSpotEnable" type="client"></export>
+    <export function="setNightSpotRadius" type="client"></export>
+    <export function="setNightSpotPosition" type="client"></export>
+</meta>

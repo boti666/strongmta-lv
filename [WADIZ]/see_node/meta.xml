@@ -1,0 +1,6 @@
+<meta>
+    
+    <script type="shared" src="shared.luac" cache="false" />
+    <script type="server" src="server.lua" />
+    <script type="client" src="client.luac" cache="false" />
+</meta>

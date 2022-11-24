@@ -1,0 +1,18 @@
+<meta>
+    
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="server" function="placeRadio" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/note2.png" />
+    <file src="files/note1.png" />
+    <file src="files/hifi.txd" />
+    <file src="files/hifibuttons.mp3" />
+    <file src="files/hificlose.mp3" />
+    <file src="files/hifiopen.mp3" />
+    <file src="files/roboto.ttf" />
+</meta>

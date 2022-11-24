@@ -1,0 +1,25 @@
+<meta>
+    <download_priority_group>-30</download_priority_group>
+    
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/Roboto.ttf" />
+    
+    <file src="files/close.png" />
+    <file src="files/arrow.png" />
+    <file src="files/star.png" />
+    <file src="files/starfull.png" />
+    <file src="files/circle.png" />
+    <file src="files/stop.png" />
+    <file src="files/tri.png" />
+    
+    <file src="files/open.mp3" />
+    <file src="files/close.mp3" />
+    <file src="files/category.mp3" />
+    <file src="files/select.mp3" />
+    <file src="files/hover.mp3" />
+</meta>

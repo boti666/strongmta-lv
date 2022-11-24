@@ -1,0 +1,30 @@
+<meta>
+	<download_priority_group>-5</download_priority_group>
+
+	<script type="server" src="sourceS.lua" />
+	<script type="client" src="sourceC.luac" cache="false"/>
+	<script type="client" src="sourceC.lua" cache="false"/>
+
+	<min_mta_version server="1.5.7" client="1.5.7" />
+
+	<file src="files/fonts/roboto.ttf" />
+	<file src="files/fonts/roboto_light.ttf" />
+
+	<file src="files/images/1.png" />
+	<file src="files/images/2.png" />
+	<file src="files/images/trash.png" />
+	<file src="files/images/respawn.png" />
+	<file src="files/images/typing.png" />
+	<file src="files/images/console.png" />
+	<file src="files/images/afk.png" />
+	<file src="files/images/asduty.png" />
+	<file src="files/images/adminduty.png" />
+	<file src="files/images/foadmin.png" />
+	<file src="files/images/superadmin.png" />
+	<file src="files/images/owner.png" />
+	<file src="files/images/devduty.png" />
+	<file src="files/images/taz.png" />
+	<file src="files/images/cuff.png" />
+	<file src="files/images/anim.png" />
+	<file src="files/images/death.png" />
+</meta>

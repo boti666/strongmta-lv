@@ -1,0 +1,16 @@
+<meta>
+    <download_priority_group>-4</download_priority_group>
+    
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="shared" function="encodeDatabaseId" />
+    <export type="server" function="createPermVehicle" />
+    <export type="server" function="loadVehicle" />
+    <export type="server" function="saveVehicle" />
+    <export type="server" function="resetVehicle" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+</meta>

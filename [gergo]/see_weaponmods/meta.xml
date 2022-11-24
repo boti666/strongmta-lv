@@ -1,0 +1,44 @@
+<meta>
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <file src="files/ak47.dff" />
+    <file src="files/ak47.txd" />
+    <file src="files/cane.dff" />
+    <file src="files/cane.txd" />
+    <file src="files/chnsaw.dff" />
+    <file src="files/chnsaw.txd" />
+    <file src="files/chromegun.dff" />
+    <file src="files/chromegun.txd" />
+    <file src="files/colt45.dff" />
+    <file src="files/colt45.txd" />
+    <file src="files/desert_eagle.dff" />
+    <file src="files/desert_eagle.txd" />
+    <file src="files/flower.dff" />
+    <file src="files/flower.txd" />
+    <file src="files/grenade.dff" />
+    <file src="files/grenade.txd" />
+    <file src="files/katana.dff" />
+    <file src="files/katana.txd" />
+    <file src="files/knifecur.dff" />
+    <file src="files/knifecur.txd" />
+    <file src="files/m4.dff" />
+    <file src="files/m4.txd" />
+    <file src="files/mp5lng.dff" />
+    <file src="files/mp5lng.txd" />
+    <file src="files/rifle.dff" />
+    <file src="files/rifle.txd" />
+    <file src="files/shotgspa.dff" />
+    <file src="files/shotgspa.txd" />
+    <file src="files/silenced.dff" />
+    <file src="files/silenced.txd" />
+    <file src="files/sniper.dff" />
+    <file src="files/sniper.txd" />
+    <file src="files/tec9.dff" />
+    <file src="files/tec9.txd" />
+    <file src="files/uzi.dff" />
+    <file src="files/uzi.txd" />
+    <file src="files/vibrator.dff" />
+    <file src="files/vibrator.txd" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+</meta>

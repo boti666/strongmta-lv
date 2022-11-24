@@ -1,0 +1,44 @@
+<meta>
+    
+    <download_priority_group>9998</download_priority_group>
+    
+    <script src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <file src="files/beep.mp3" />
+    <file src="files/beep2.mp3" />
+    <file src="files/hole_texture.png" />
+    <file src="files/bg2.png" />
+    <file src="files/bg.png" />
+    
+    <file src="files/1.png" />
+    <file src="files/2.png" />
+    <file src="files/3.png" />
+    <file src="files/4.png" />
+    <file src="files/5.png" />
+    <file src="files/6.png" />
+    <file src="files/7.png" />
+    <file src="files/8.png" />
+    
+    <file src="files/dig.png" />
+    
+    <file src="files/tex/empty.dds" />
+    <file src="files/tex/crate/1.dds" />
+    
+    <file src="files/mta-helper.fx" />
+    <file src="files/shader.fx" />
+    
+    <file src="files/detector.txd" />
+    <file src="files/detector.wardis" />
+    
+    <file src="files/turas.txd" />
+    <file src="files/turas1.txd" />
+    <file src="files/turas.wardis" />
+    
+    <file src="files/turas1.wardis" />
+    
+    
+    
+    
+    <min_mta_version client="1.5.8-9.20704"></min_mta_version>
+</meta>

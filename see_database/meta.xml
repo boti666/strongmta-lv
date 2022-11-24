@@ -1,0 +1,14 @@
+<meta>
+	<download_priority_group>10000</download_priority_group>
+	
+
+	<min_mta_version client="1.5.7" server="1.5.7" />
+	
+	<script type="server" src="sourceS.lua" />
+	
+	<export type="server" function="getConnection" />
+	<export type="server" function="dbInsert" />
+	<export type="server" function="dbUpdate" />
+	<export type="server" function="savePlayer" />
+	<export type="server" function="saveVehicle" />
+</meta>

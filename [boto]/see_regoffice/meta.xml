@@ -1,0 +1,10 @@
+<meta>
+    <script type="server" src="sourceS.lua" validate="false" />
+    <script type="client" src="sourceC.luac" validate="false" cache="false" />
+    
+    <file src="files/Roboto.ttf" />
+    <file src="files/bg.png" />
+    <file src="files/car.png" />
+    <file src="files/weapon.png" />
+    <file src="files/fishing.png" />
+</meta>

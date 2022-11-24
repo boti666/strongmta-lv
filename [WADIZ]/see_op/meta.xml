@@ -1,0 +1,41 @@
+<meta>
+    
+    <info name="Object Preview" author="Ren712" type="script" version="0.7.0" />
+    <min_mta_version client="1.5.8-9.20718" />
+    <script src="c_main.luac" type="client" />
+    <script src="c_exported_functions.luac" type="client" />
+    <script src="c_helper_functions.luac" type="client" />
+    <file src="fx/fx_pre_vehicle.fx" type="client" />
+    <file src="fx/fx_pre_ped.fx" type="client" />
+    <file src="fx/fx_pre_object.fx" type="client" />
+    <file src="fx/fx_pre_vehicle_noMRT.fx" type="client" />
+    <file src="fx/fx_pre_ped_noMRT.fx" type="client" />
+    <file src="fx/fx_pre_object_noMRT.fx" type="client" />
+    <file src="fx/fx_pre_vehicle_replace.fx" type="client" />
+    <file src="fx/fx_pre_ped_replace.fx" type="client" />
+    <file src="fx/fx_pre_object_replace.fx" type="client" />
+    <file src="fx/fx_pre_vehicle_replace_noMRT.fx" type="client" />
+    <file src="fx/fx_pre_ped_replace_noMRT.fx" type="client" />
+    <file src="fx/fx_pre_object_replace_noMRT.fx" type="client" />
+    <export function="createObjectPreview" type="client" />
+    <export function="createTextureReplace" type="client" />
+    <export function="destroyTextureReplace" type="client" />
+    <export function="setTextureReplaceTexture" type="client" />
+    <export function="getRenderTarget" type="client" />
+    <export function="destroyObjectPreview" type="client" />
+    <export function="saveRTToFile" type="client" />
+    <export function="setRotation" type="client" />
+    <export function="setProjection" type="client" />
+    <export function="setDistanceSpread" type="client" />
+    <export function="setPositionOffsets" type="client" />
+    <export function="setRotationOffsets" type="client" />
+    <export function="setRenderPostGui" type="client" />
+    <export function="setAlpha" type="client" />
+    <export function="setColorFilter" type="client" />
+    <export function="setVisible" type="client" />
+    <export function="isVisible" type="client" />
+    <export function="setAttached" type="client" />
+    <export function="createTextureReplace" type="client" />
+    <export function="setTextureReplaceTexture" type="client" />
+    <export function="destroyTextureReplace" type="client" />
+</meta>

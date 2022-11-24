@@ -1,0 +1,7 @@
+<meta>
+	<download_priority_group>100</download_priority_group>
+
+	<script type="client" src="sourceC.luac" />
+
+	<min_mta_version client="1.5.7" server="1.5.7" />
+</meta>

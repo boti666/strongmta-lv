@@ -1,0 +1,45 @@
+<meta>
+    <download_priority_group>-15</download_priority_group>
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.lua" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <export function="clearBlips" type="shared" />
+    
+    <file src="files/fonts/Roboto.ttf" />
+    <file src="files/fonts/RobotoL.ttf" />
+    <file src="files/fonts/RobotoB.ttf" />
+    
+    <file src="files/images/icons/close.png" />
+    <file src="files/images/icons/key.png" />
+    <file src="files/images/icons/user.png" />
+    <file src="files/images/icons/search.png" />
+    <file src="files/images/icons/car.png" />
+    <file src="files/images/icons/plate.png" />
+    <file src="files/images/icons/pencil.png" />
+    <file src="files/images/icons/dollar.png" />
+    <file src="files/images/icons/clock.png" />
+    
+    <file src="files/images/PD_a.png" />
+    <file src="files/images/PD_b.png" />
+    <file src="files/images/SD_a.png" />
+    <file src="files/images/SD_b.png" />
+    
+    <file src="files/sounds/key1.mp3" />
+    <file src="files/sounds/key2.mp3" />
+    <file src="files/sounds/key3.mp3" />
+    <file src="files/sounds/login.mp3" />
+    <file src="files/sounds/mdcon.mp3" />
+    <file src="files/sounds/mdcoff.mp3" />
+    <file src="files/sounds/mdcnavklikk.mp3" />
+    <file src="files/sounds/mdcsetgroup.mp3" />
+    <file src="files/sounds/mdcaction.mp3" />
+    <file src="files/sounds/mdcpatrol.mp3" />
+    
+    <file src="files/sounds/backup1.mp3" />
+    <file src="files/sounds/backup2.mp3" />
+    
+    <export src="ServerResponse" type="server" http="true" />
+</meta>

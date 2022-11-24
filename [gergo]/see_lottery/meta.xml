@@ -1,0 +1,61 @@
+<meta>
+    <download_priority_group>-15</download_priority_group>
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="shared" function="getScratchItems" />
+    <export type="shared" function="isScratchTicket" />
+    
+    <export type="client" function="isScratchTicketOpen" />
+    <export type="client" function="showScratch" />
+    <export type="client" function="verifyScratch" />
+    
+    <export type="client" function="isLotteryInUse" />
+    <export type="client" function="openLotteryTicket" />
+    <export type="client" function="checkLotteryTicket" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/Roboto.ttf" />
+    <file src="files/Fixedsys500c.ttf" />
+    <file src="files/barcode.ttf" />
+    <file src="files/ocr.ttf" />
+    <file src="files/texturechanger.fx" />
+    
+    <file src="files/scratch/mask.fx" />
+    <file src="files/scratch/mask.png" />
+    <file src="files/scratch/scratch.mp3" />
+    
+    <file src="files/scratch/lift/background.png" />
+    <file src="files/scratch/lift/scratch.png" />
+    <file src="files/scratch/lift/full.png" />
+    <file src="files/scratch/lift/arrow.png" />
+    <file src="files/scratch/lift/stop.png" />
+    
+    <file src="files/scratch/piggy/background.png" />
+    <file src="files/scratch/piggy/scratch.png" />
+    <file src="files/scratch/piggy/full.png" />
+    <file src="files/scratch/piggy/luck.png" />
+    
+    <file src="files/scratch/moneymania/background.png" />
+    <file src="files/scratch/moneymania/full.png" />
+    <file src="files/scratch/moneymania/scratch.png" />
+    <file src="files/scratch/moneymania/bank.png" />
+    <file src="files/scratch/moneymania/card.png" />
+    <file src="files/scratch/moneymania/dollar.png" />
+    
+    <file src="files/scratch/blackjack/background.png" />
+    <file src="files/scratch/blackjack/full.png" />
+    <file src="files/scratch/blackjack/scratch.png" />
+    
+    <file src="files/lottery/teletext.png" />
+    <file src="files/lottery/bcg.png" />
+    <file src="files/lottery/rect.png" />
+    <file src="files/lottery/pen.png" />
+    <file src="files/lottery/pen2.png" />
+    <file src="files/lottery/pen.mp3" />
+    <file src="files/lottery/bcg2.png" />
+    <file src="files/lottery/nowin.png" />
+</meta>

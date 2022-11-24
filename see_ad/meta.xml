@@ -1,0 +1,13 @@
+<meta>
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/chair.png" />
+    <file src="files/doorclose.png" />
+    <file src="files/dooropen.png" />
+    <file src="files/roofin.png" />
+    <file src="files/roofout.png" />
+    
+    <oop>true</oop>
+</meta>

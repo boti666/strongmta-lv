@@ -1,0 +1,17 @@
+<meta>
+    <download_priority_group>-3</download_priority_group>
+    
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="client" function="localActionC" />
+    <export type="client" function="sendLocalDoC" />
+    <export type="client" function="sendLocalSay" />
+    
+    <export type="server" function="localAction" />
+    <export type="server" function="sendLocalDo" />
+    <export type="server" function="sendLocalSay" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+</meta>

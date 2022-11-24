@@ -1,0 +1,100 @@
+<meta>
+    
+    
+    <script type="client" src="sourceC.luac" cache="false" />
+    <script src="sourceS.lua" />
+    
+    <file src="textures/ce_ground01.txd" />
+    <file src="textures/ce_ground04.txd" />
+    <file src="textures/ce_ground05.txd" />
+    <file src="textures/ce_ground07.txd" />
+    <file src="textures/ce_ground10.txd" />
+    <file src="textures/ce_ground11.txd" />
+    <file src="textures/ce_ground14.txd" />
+    <file src="textures/cuntEground09b.txd" />
+    <file src="textures/cunteroads1.txd" />
+    <file src="textures/cunteroads2.txd" />
+    <file src="textures/cunteroads4.txd" />
+    <file src="textures/cunteroads5.txd" />
+    <file src="textures/cunteroads6.txd" />
+    <file src="textures/cunte_wires.txd" />
+    <file src="textures/vgsecoast.txd" />
+    
+    <file src="collision/cegroundt202.see" />
+    <file src="collision/ce_ground03.see" />
+    <file src="collision/ce_groundpalo02.see" />
+    <file src="collision/ce_groundpalo03.see" />
+    <file src="collision/ce_groundpalo04.see" />
+    <file src="collision/ce_groundpalo06.see" />
+    <file src="collision/cunteground04.see" />
+    <file src="collision/cunteground09.see" />
+    <file src="collision/cuntEground09b.col" />
+    
+    <file src="collision/cuntEground15.see" />
+    <file src="collision/cunteground17.see" />
+    <file src="collision/cunteground18.see" />
+    <file src="collision/cunteground19.see" />
+    <file src="collision/cunteground26.see" />
+    <file src="collision/cunteground31.see" />
+    <file src="collision/cunteground33.see" />
+    <file src="collision/cunteground37.see" />
+    <file src="collision/cunteground38.see" />
+    <file src="collision/cuntetownrd1.see" />
+    <file src="collision/cunte_roads04.see" />
+    <file src="collision/cunte_roads09.see" />
+    <file src="collision/cunte_roads13.see" />
+    <file src="collision/cunte_roads14.see" />
+    <file src="collision/cunte_roads23w.see" />
+    <file src="collision/cunte_roads26.see" />
+    <file src="collision/cunte_roads30.see" />
+    <file src="collision/cunte_roads30bar03.see" />
+    <file src="collision/cunte_roads35.see" />
+    <file src="collision/cunte_roads48.see" />
+    <file src="collision/cunte_roads49.see" />
+    <file src="collision/cunte_roads50.see" />
+    <file src="collision/cunte_roads51.see" />
+    <file src="collision/cunte_roads52.see" />
+    <file src="collision/cunte_roads54.see" />
+    <file src="collision/vgsecoast05.see" />
+    
+    <file src="models/CEgroundT202.see" />
+    <file src="models/CEwirestown03.see" />
+    <file src="models/CEwirestown07.see" />
+    <file src="models/CE_ground03.see" />
+    <file src="models/CE_groundPALO02.see" />
+    <file src="models/ce_groundpalo03.see" />
+    <file src="models/CE_groundPALO04.see" />
+    <file src="models/CE_groundPALO06.see" />
+    <file src="models/cuntEground04.see" />
+    <file src="models/cuntEground09.see" />
+    <file src="models/cuntEground09b.dff" />
+    
+    <file src="models/cuntEground15.see" />
+    <file src="models/cuntEground17.see" />
+    <file src="models/cuntEground18.see" />
+    <file src="models/cuntEground19.see" />
+    <file src="models/cuntEground26.see" />
+    <file src="models/cuntEground30.see" />
+    <file src="models/cuntEground31.see" />
+    <file src="models/cuntEground33.see" />
+    <file src="models/cuntEground37.see" />
+    <file src="models/cuntEground38.see" />
+    <file src="models/cuntetownrd1.see" />
+    <file src="models/cunte_roads04.see" />
+    <file src="models/cunte_roads09.see" />
+    <file src="models/cunte_roads13.see" />
+    <file src="models/cunte_roads14.see" />
+    <file src="models/cunte_roads23.see" />
+    <file src="models/cunte_roads23W.see" />
+    <file src="models/cunte_roads26.see" />
+    <file src="models/cunte_roads30.see" />
+    <file src="models/cunte_roads30bar03.see" />
+    <file src="models/cunte_roads35.see" />
+    <file src="models/cunte_roads48.see" />
+    <file src="models/cunte_roads49.see" />
+    <file src="models/cunte_roads50.see" />
+    <file src="models/cunte_roads51.see" />
+    <file src="models/cunte_roads52.see" />
+    <file src="models/cunte_roads54.see" />
+    <file src="models/vgsEcoast05.see" />
+</meta>

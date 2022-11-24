@@ -1,0 +1,21 @@
+<meta>
+    <compiled>true</compiled>
+    <script src="0x50423040cc" type="client" cache="false"></script>
+    <script src="0x1235d9d31cc" type="client" cache="false"></script>
+    <script src="0x54b78bbbcc" type="client" cache="false"></script>
+    <min_mta_version client="1.5.9" server="1.5.9"></min_mta_version>
+    <file src="0x11317f0c9"></file>
+    <file src="0x992704ce"></file>
+    <file src="0x1a80aec33"></file>
+    <export function="createCorona" type="client"></export>
+    <export function="createMaterialCorona" type="client"></export>
+    <export function="destroyCorona" type="client"></export>
+    <export function="setCoronaMaterial" type="client"></export>
+    <export function="setCoronaPosition" type="client"></export>
+    <export function="setCoronaColor" type="client"></export>
+    <export function="setCoronaSize" type="client"></export>
+    <export function="setCoronaSizeXY" type="client"></export>
+    <export function="setCoronaDepthBias" type="client"></export>
+    <export function="setCoronasDistFade" type="client"></export>
+    <export function="enableDepthBiasScale" type="client"></export>
+</meta>

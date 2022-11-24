@@ -1,0 +1,7 @@
+<meta>
+
+    <script src="sourceC.lua" type="client" cache="false" />
+
+    <export function="getLevel" type="client" />
+
+</meta>

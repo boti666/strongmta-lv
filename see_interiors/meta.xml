@@ -1,0 +1,196 @@
+<meta>
+    <download_priority_group>-4</download_priority_group>
+    
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <script type="server" src="manager/sourceS.lua" />
+    <script type="client" src="manager/sourceC.luac" cache="false" />
+    
+    <export type="server" function="requestInteriors" />
+    <export type="server" function="unownInterior" />
+    <export type="server" function="loadPlayerInteriors" />
+    <export type="server" function="addPlayerInterior" />
+    <export type="server" function="removePlayerInterior" />
+    <export type="server" function="warpElement" />
+    
+    <export type="shared" function="getGameInteriors" />
+    <export type="shared" function="getInteriorPosition" />
+    <export type="shared" function="getInteriorName" />
+    <export type="shared" function="getInteriorOwner" />
+    <export type="shared" function="getInteriorEntrancePosition" />
+    <export type="shared" function="getInteriorExitPosition" />
+    <export type="shared" function="getInteriorEntranceIntDim" />
+    <export type="shared" function="getInteriorExitIntDim" />
+    <export type="shared" function="getInteriorEntrance" />
+    <export type="shared" function="getInteriorExit" />
+    <export type="shared" function="getInteriorEditable" />
+    
+    <export type="client" function="requestInteriors" />
+    <export type="client" function="getCurrentStandingInterior" />
+    <export type="client" function="useDoorRammer" />
+    <export type="client" function="createCoolMarker" />
+    <export type="client" function="setCoolMarkerType" />
+    <export type="client" function="setInteriorExitPosition" />
+    <export type="client" function="getIconByMarkerType" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/icons/house.png" />
+    <file src="files/icons/houseforsale.png" />
+    <file src="files/icons/business.png" />
+    <file src="files/icons/info.png" />
+    <file src="files/icons/garage.png" />
+    <file src="files/icons/garageforsale.png" />
+    <file src="files/icons/duty.png" />
+    <file src="files/icons/rentable.png" />
+    <file src="files/icons/barn.png" />
+    <file src="files/icons/barn2.png" />
+    
+    <file src="files/sounds/openclose.mp3" />
+    <file src="files/sounds/locked.mp3" />
+    <file src="files/sounds/intenter.mp3" />
+    <file src="files/sounds/intout.mp3" />
+    <file src="files/sounds/rammed.mp3" />
+    <file src="files/sounds/knock.mp3" />
+    <file src="files/sounds/bell.mp3" />
+    
+    <file src="files/pics/1.jpg" />
+    <file src="files/pics/2.jpg" />
+    <file src="files/pics/3.jpg" />
+    <file src="files/pics/4.jpg" />
+    <file src="files/pics/5.jpg" />
+    <file src="files/pics/6.jpg" />
+    <file src="files/pics/7.jpg" />
+    <file src="files/pics/8.jpg" />
+    <file src="files/pics/9.jpg" />
+    <file src="files/pics/10.jpg" />
+    <file src="files/pics/11.jpg" />
+    <file src="files/pics/12.jpg" />
+    <file src="files/pics/13.jpg" />
+    <file src="files/pics/14.jpg" />
+    <file src="files/pics/15.jpg" />
+    <file src="files/pics/16.jpg" />
+    <file src="files/pics/17.jpg" />
+    <file src="files/pics/18.jpg" />
+    <file src="files/pics/19.jpg" />
+    <file src="files/pics/20.jpg" />
+    <file src="files/pics/21.jpg" />
+    <file src="files/pics/22.jpg" />
+    <file src="files/pics/23.jpg" />
+    <file src="files/pics/24.jpg" />
+    <file src="files/pics/25.jpg" />
+    <file src="files/pics/26.jpg" />
+    <file src="files/pics/27.jpg" />
+    <file src="files/pics/28.jpg" />
+    <file src="files/pics/29.jpg" />
+    <file src="files/pics/30.jpg" />
+    <file src="files/pics/31.jpg" />
+    <file src="files/pics/32.jpg" />
+    <file src="files/pics/33.jpg" />
+    <file src="files/pics/34.jpg" />
+    <file src="files/pics/35.jpg" />
+    <file src="files/pics/36.jpg" />
+    <file src="files/pics/37.jpg" />
+    <file src="files/pics/38.jpg" />
+    <file src="files/pics/39.jpg" />
+    <file src="files/pics/40.jpg" />
+    <file src="files/pics/41.jpg" />
+    <file src="files/pics/42.jpg" />
+    <file src="files/pics/43.jpg" />
+    <file src="files/pics/44.jpg" />
+    <file src="files/pics/45.jpg" />
+    <file src="files/pics/46.jpg" />
+    <file src="files/pics/47.jpg" />
+    <file src="files/pics/48.jpg" />
+    <file src="files/pics/49.jpg" />
+    <file src="files/pics/50.jpg" />
+    <file src="files/pics/51.jpg" />
+    <file src="files/pics/52.jpg" />
+    <file src="files/pics/53.jpg" />
+    <file src="files/pics/54.jpg" />
+    <file src="files/pics/55.jpg" />
+    <file src="files/pics/56.jpg" />
+    <file src="files/pics/57.jpg" />
+    <file src="files/pics/58.jpg" />
+    <file src="files/pics/59.jpg" />
+    <file src="files/pics/60.jpg" />
+    <file src="files/pics/61.jpg" />
+    <file src="files/pics/62.jpg" />
+    <file src="files/pics/63.jpg" />
+    <file src="files/pics/64.jpg" />
+    <file src="files/pics/65.jpg" />
+    <file src="files/pics/66.jpg" />
+    <file src="files/pics/67.jpg" />
+    <file src="files/pics/68.jpg" />
+    <file src="files/pics/69.jpg" />
+    <file src="files/pics/70.jpg" />
+    <file src="files/pics/71.jpg" />
+    <file src="files/pics/72.jpg" />
+    <file src="files/pics/73.jpg" />
+    <file src="files/pics/74.jpg" />
+    <file src="files/pics/75.jpg" />
+    <file src="files/pics/76.jpg" />
+    <file src="files/pics/77.jpg" />
+    <file src="files/pics/78.jpg" />
+    <file src="files/pics/79.jpg" />
+    <file src="files/pics/80.jpg" />
+    <file src="files/pics/81.jpg" />
+    <file src="files/pics/82.jpg" />
+    <file src="files/pics/83.jpg" />
+    <file src="files/pics/84.jpg" />
+    <file src="files/pics/85.jpg" />
+    <file src="files/pics/86.jpg" />
+    <file src="files/pics/87.jpg" />
+    <file src="files/pics/88.jpg" />
+    <file src="files/pics/89.jpg" />
+    <file src="files/pics/90.jpg" />
+    <file src="files/pics/91.jpg" />
+    <file src="files/pics/92.jpg" />
+    <file src="files/pics/93.jpg" />
+    <file src="files/pics/94.jpg" />
+    <file src="files/pics/95.jpg" />
+    <file src="files/pics/96.jpg" />
+    <file src="files/pics/97.jpg" />
+    <file src="files/pics/98.jpg" />
+    <file src="files/pics/99.jpg" />
+    <file src="files/pics/100.jpg" />
+    <file src="files/pics/101.jpg" />
+    <file src="files/pics/102.jpg" />
+    <file src="files/pics/103.jpg" />
+    <file src="files/pics/104.jpg" />
+    <file src="files/pics/105.jpg" />
+    <file src="files/pics/106.jpg" />
+    <file src="files/pics/107.jpg" />
+    <file src="files/pics/108.jpg" />
+    <file src="files/pics/109.jpg" />
+    <file src="files/pics/110.jpg" />
+    <file src="files/pics/111.jpg" />
+    <file src="files/pics/112.jpg" />
+    <file src="files/pics/113.jpg" />
+    <file src="files/pics/114.jpg" />
+    <file src="files/pics/115.jpg" />
+    <file src="files/pics/116.jpg" />
+    <file src="files/pics/117.jpg" />
+    <file src="files/pics/118.jpg" />
+    <file src="files/pics/119.jpg" />
+    <file src="files/pics/120.jpg" />
+    <file src="files/pics/121.jpg" />
+    <file src="files/pics/122.jpg" />
+    <file src="files/pics/123.jpg" />
+    <file src="files/pics/124.jpg" />
+    <file src="files/pics/125.jpg" />
+    <file src="files/pics/126.jpg" />
+    <file src="files/pics/127.jpg" />
+    <file src="files/pics/128.jpg" />
+    <file src="files/pics/129.jpg" />
+    <file src="files/pics/130.jpg" />
+    <file src="files/pics/131.jpg" />
+    <file src="files/pics/132.jpg" />
+    <file src="files/pics/133.jpg" />
+    <file src="files/pics/134.jpg" />
+    <file src="files/pics/135.jpg" />
+    <file src="files/pics/136.jpg" />
+</meta>

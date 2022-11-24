@@ -1,0 +1,16 @@
+<meta>
+    <download_priority_group>-3</download_priority_group>
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/Roboto.ttf" />
+    <file src="files/yankee.png" />
+    <file src="files/boxville.png" />
+    <file src="files/pizzaboy.png" />
+    <file src="files/bus.png" />
+    <file src="files/bus2.png" />
+    <file src="files/dune.png" />
+</meta>

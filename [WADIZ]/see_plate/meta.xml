@@ -1,0 +1,11 @@
+<meta>
+    <info author="!Patrick" name="customvehplate" type="script" version="1.1" />
+    <min_mta_version client="1.5.0" />
+    
+    
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <file src="files/font.ttf" />
+    <file src="files/plate.png" />
+    
+</meta>

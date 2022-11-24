@@ -1,0 +1,6 @@
+<meta>
+    
+    <script src="sourceC.luac" type="client" cache="false" />
+    <export function="getPhoneBalance" type="client" />
+    
+</meta>

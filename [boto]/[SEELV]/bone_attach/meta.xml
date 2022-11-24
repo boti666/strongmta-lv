@@ -1,0 +1,17 @@
+<meta>
+    <download_priority_group>-1</download_priority_group>
+    
+    <script type="server" src="sourceS.luac" />
+    <script type="shared" src="sourceG.luac" />
+    <script type="client" src="sourceC.luac" />
+    
+    <export type="shared" function="attachElementToBone" />
+    <export type="shared" function="detachElementFromBone" />
+    <export type="shared" function="isElementAttachedToBone" />
+    <export type="shared" function="getElementBoneAttachmentDetails" />
+    <export type="shared" function="setElementBonePositionOffset" />
+    <export type="shared" function="setElementBoneRotationOffset" />
+    <export type="client" function="getBonePositionAndRotation" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+</meta>

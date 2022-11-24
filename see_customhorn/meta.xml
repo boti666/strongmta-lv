@@ -1,0 +1,25 @@
+<meta>
+    <download_priority_group>-10</download_priority_group>
+    
+    
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="horns/1.mp3" />
+    <file src="horns/2.mp3" />
+    <file src="horns/3.mp3" />
+    <file src="horns/4.mp3" />
+    <file src="horns/5.mp3" />
+    <file src="horns/6.mp3" />
+    <file src="horns/7.mp3" />
+    <file src="horns/8.mp3" />
+    <file src="horns/9.mp3" />
+    <file src="horns/10.mp3" />
+    <file src="horns/11.mp3" />
+    <file src="horns/12.mp3" />
+    <file src="horns/13.mp3" />
+    <file src="horns/14.mp3" />
+    <file src="horns/15.mp3" />
+    
+</meta>

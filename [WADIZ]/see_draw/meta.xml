@@ -1,0 +1,23 @@
+<meta>
+    <download_priority_group>9997</download_priority_group>
+    
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    
+    <export type="client" function="isInSlot" />
+    <export type="client" function="drawText" />
+    
+    <file src="fonts/counter.ttf" />
+    <file src="fonts/counter2.ttf" />
+    <file src="fonts/hand.otf" />
+    <file src="fonts/Raleway.ttf" />
+    <file src="fonts/ThermalPrinter.ttf" />
+    <file src="fonts/lunabar.ttf" />
+    
+    <export type="client" function="getInterfaceElements" />
+    
+    <export type="client" function="loadFont" />
+    <export type="client" function="getFontsDetail" />
+    
+    <min_mta_version client="1.5.8" server="1.5.8" />
+</meta>

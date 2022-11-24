@@ -1,0 +1,18 @@
+<meta>
+    
+    <script src="c_freecam.luac" type="client" cache="false" />
+    <script src="s_freecam.luac" type="server" />
+    <!-- server functions -->
+    <export function="setPlayerFreecamEnabled" />
+    <export function="setPlayerFreecamDisabled" />
+    <export function="isPlayerFreecamEnabled" />
+    <export function="setPlayerFreecamOption" />
+    <!-- client functions -->
+    <export function="setFreecamEnabled" type="client" />
+    <export function="setFreecamDisabled" type="client" />
+    <export function="isFreecamEnabled" type="client" />
+    <export function="setFreecamOption" type="client" />
+    <export function="getFreecamOption" type="client" />
+    <export function="getFreecamVelocity" type="client" />
+    <min_mta_version server="1.5.6-9.18728" client="1.5.6-9.18728"></min_mta_version>
+</meta>

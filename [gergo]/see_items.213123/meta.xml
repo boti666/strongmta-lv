@@ -1,0 +1,505 @@
+<meta>
+	<download_priority_group>-3</download_priority_group>
+
+	<script type="shared" src="sourceG.lua" cache="false" />
+	<script type="server" src="sourceS.lua" />
+	<script type="client" src="sourceC.lua" cache="false" />
+	<script type="client" src="actionbar/sourceC.lua" cache="false" />
+
+	<script type="shared" src="inventory/sourceG.lua" cache="false" />
+	<script type="client" src="inventory/sourceC.lua" cache="false" />
+
+	<script type="server" src="trash/sourceS.lua" cache="false" />
+	<script type="client" src="trash/sourceC.lua" cache="false" />
+
+	<script type="server" src="safes/sourceS.lua" />
+	<script type="client" src="safes/sourceC.lua" cache="false" />
+
+	<script type="server" src="worlditems/sourceS.lua" />
+	<script type="client" src="worlditems/sourceC.lua" cache="false" />
+
+	<script type="server" src="copiers/sourceS.lua" />
+	<script type="client" src="copiers/sourceC.lua" cache="false" />
+
+	<export type="shared" function="getWeightLimit" />
+	<export type="shared" function="getItemInfoForShop" />
+	<export type="shared" function="getItemNameList" />
+	<export type="shared" function="getItemDescriptionList" />
+	<export type="shared" function="getItemName" />
+	<export type="shared" function="getItemDescription" />
+	<export type="shared" function="getItemWeight" />
+	<export type="shared" function="isItemStackable" />
+	<export type="shared" function="getItemWeaponID" />
+	<export type="shared" function="getItemAmmoID" />
+	<export type="shared" function="isItemDroppable" />
+	<export type="shared" function="getItemDropDetails" />
+	<export type="shared" function="isWeaponItem" />
+	<export type="shared" function="isAmmoItem" />
+	<export type="shared" function="getNonStackableItems" />
+	<export type="shared" function="isKeyItem" />
+	<export type="shared" function="isPaperItem" />
+	<export type="shared" function="getWeaponNameFromIDNew" />
+	<export type="shared" function="getWeaponSkin" />
+	<export type="shared" function="getItemPerishable" />
+
+	<export type="server" function="loadItems" />
+	<export type="server" function="giveItem" />
+	<export type="server" function="äłÄÍÄ<đ\|Ä\|ÄäđĐ$äđĐ" />
+	<export type="server" function="takeItemWithData" />
+	<export type="server" function="getElementItems" />
+	<export type="server" function="getItemsCount" />
+	<export type="server" function="getCurrentWeight" />
+	<export type="server" function="findEmptySlot" />
+	<export type="server" function="hasItem" />
+	<export type="server" function="hasItemWithData" />
+	<export type="server" function="hasSpaceForItem" />
+	<export type="server" function="clearItems" />
+	<export type="server" function="getItemSlotID" />
+	<export type="server" function="getFreeSlotCount" />
+
+	<export type="client" function="getLocalPlayerItems" />
+	<export type="client" function="playerHasItem" />
+	<export type="client" function="playerHasItemWithData" />
+	<export type="client" function="isHavePen" />
+	<export type="client" function="useItem" />
+	<export type="client" function="unuseItem" />
+	<export type="client" function="changeItemStartPos" />
+	<export type="client" function="processActionBarShowHide" />
+	<export type="client" function="isActionBarVisible" />
+	<export type="client" function="disableDeactivateForDriveby" />
+	<export type="client" function="getCurrentWeight" />
+	<export type="client" function="penSetData" />
+	<export type="client" function="notepadSetData" />
+	<export type="client" function="findEmptySlot" />
+
+	<min_mta_version client="1.5.7" server="1.5.7" />
+
+	<file src="files/fonts/Roboto.ttf" />
+	<file src="files/fonts/RobotoL.ttf" />
+	<file src="files/fonts/lunabar.ttf" />
+	<file src="files/fonts/myriadpro.ttf" />
+	<file src="files/fonts/hand.ttf" />
+	<file src="files/fonts/gtaFont.ttf" />
+	<file src="files/fonts/Fixedsys500c.ttf" />
+
+	<file src="files/sounds/tab.mp3" />
+	<file src="files/sounds/hover.mp3" />
+	<file src="files/sounds/move.mp3" />
+	<file src="files/sounds/select.mp3" />
+	<file src="files/sounds/craftstart.mp3" />
+	<file src="files/sounds/crafting.mp3" />
+	<file src="files/sounds/grinder.mp3" />
+	<file src="files/sounds/hammer.mp3" />
+	<file src="files/sounds/smallfirework.mp3" />
+	<file src="files/sounds/largefirework.mp3" />
+	<file src="files/sounds/copy.mp3" />
+	<file src="files/sounds/card.mp3" />
+	<file src="files/sounds/dice.mp3" />
+
+	<file src="files/tabs/bag.png" />
+	<file src="files/tabs/key.png" />
+	<file src="files/tabs/wallet.png" />
+	<file src="files/tabs/car.png" />
+	<file src="files/tabs/safe.png" />
+	<file src="files/tabs/craft.png" />
+
+	<file src="files/eye.png" />
+	<file src="files/vin.png" />
+	<file src="files/leftMouse.png" />
+	<file src="files/rightMouse.png" />
+	<file src="files/backpack.png" />
+	<file src="files/dollar.png" />
+	<file src="files/search.png" />
+	<file src="files/page.png" />
+	<file src="files/pagecopy.png" />
+	<file src="files/paper.png" />
+	<file src="files/monochrome.fx" />
+	<file src="files/nametag.png" />
+	<file src="files/arrows.png" />
+	<file src="files/used.png" />
+	<file src="files/used2.png" />
+	<file src="files/noitem.png" />
+
+	<file src="files/items/nopic.png" />
+	<file src="files/items/0.png" />
+	<file src="files/items/1.png" />
+	<file src="files/items/2.png" />
+	<file src="files/items/3.png" />
+	<file src="files/items/4.png" />
+	<file src="files/items/5.png" />
+	<file src="files/items/6.png" />
+	<file src="files/items/7.png" />
+	<file src="files/items/8.png" />
+	<file src="files/items/9.png" />
+	<file src="files/items/10.png" />
+	<file src="files/items/11.png" />
+	<file src="files/items/12.png" />
+	<file src="files/items/13.png" />
+	<file src="files/items/14.png" />
+	<file src="files/items/15.png" />
+	<file src="files/items/16.png" />
+	<file src="files/items/17.png" />
+	<file src="files/items/18.png" />
+	<file src="files/items/19.png" />
+	<file src="files/items/20.png" />
+	<file src="files/items/21.png" />
+	<file src="files/items/22.png" />
+	<file src="files/items/23.png" />
+	<file src="files/items/24.png" />
+	<file src="files/items/25.png" />
+	<file src="files/items/26.png" />
+	<file src="files/items/27.png" />
+	<file src="files/items/28.png" />
+	<file src="files/items/29.png" />
+	<file src="files/items/30.png" />
+	<file src="files/items/31.png" />
+	<file src="files/items/32.png" />
+	<file src="files/items/33.png" />
+	<file src="files/items/34.png" />
+	<file src="files/items/35.png" />
+	<file src="files/items/36.png" />
+	<file src="files/items/37.png" />
+	<file src="files/items/38.png" />
+	<file src="files/items/39.png" />
+	<file src="files/items/40.png" />
+	<file src="files/items/41.png" />
+	<file src="files/items/42.png" />
+	<file src="files/items/43.png" />
+	<file src="files/items/44.png" />
+	<file src="files/items/45.png" />
+	<!--<file src="files/items/46.png" />-->
+	<file src="files/items/47.png" />
+	<!--<file src="files/items/48.png" />
+	<file src="files/items/49.png" />-->
+	<file src="files/items/50.png" />
+	<file src="files/items/51.png" />
+	<file src="files/items/52.png" />
+	<file src="files/items/53.png" />
+	<file src="files/items/54.png" />
+	<file src="files/items/55.png" />
+	<file src="files/items/56.png" />
+	<file src="files/items/57.png" />
+	<file src="files/items/58.png" />
+	<file src="files/items/59.png" />
+	<file src="files/items/60.png" />
+	<file src="files/items/61.png" />
+	<file src="files/items/62.png" />
+	<file src="files/items/63.png" />
+	<file src="files/items/64.png" />
+	<file src="files/items/65.png" />
+	<file src="files/items/66.png" />
+	<file src="files/items/67.png" />
+	<file src="files/items/68.png" />
+	<file src="files/items/69.png" />
+	<file src="files/items/70.png" />
+	<file src="files/items/71.png" />
+	<file src="files/items/72.png" />
+	<file src="files/items/73.png" />
+	<file src="files/items/74.png" />
+	<file src="files/items/75.png" />
+	<file src="files/items/76.png" />
+	<file src="files/items/77.png" />
+	<file src="files/items/78.png" />
+	<file src="files/items/79.png" />
+	<file src="files/items/80.png" />
+	<file src="files/items/81.png" />
+	<file src="files/items/82.png" />
+	<file src="files/items/83.png" />
+	<file src="files/items/84.png" />
+	<file src="files/items/85.png" />
+	<file src="files/items/86.png" />
+	<file src="files/items/87.png" />
+	<file src="files/items/88.png" />
+	<file src="files/items/89.png" />
+	<file src="files/items/90.png" />
+	<file src="files/items/91.png" />
+	<file src="files/items/92.png" />
+	<file src="files/items/93.png" />
+	<file src="files/items/94.png" />
+	<!--<file src="files/items/95.png" />-->
+	<file src="files/items/96.png" />
+	<file src="files/items/97.png" />
+	<file src="files/items/98.png" />
+	<file src="files/items/99.png" />
+	<!--<file src="files/items/100.png" />-->
+	<file src="files/items/101.png" />
+	<file src="files/items/102.png" />
+	<file src="files/items/103.png" />
+	<!--<file src="files/items/104.png" />
+	<file src="files/items/105.png" />
+	<file src="files/items/106.png" />
+	<file src="files/items/107.png" />-->
+	<file src="files/items/108.png" />
+	<file src="files/items/109.png" />
+	<file src="files/items/110.png" />
+	<file src="files/items/111.png" />
+	<file src="files/items/112.png" />
+	<file src="files/items/113.png" />
+	<file src="files/items/114.png" />
+	<!--<file src="files/items/115.png" />-->
+	<file src="files/items/116.png" />
+	<file src="files/items/117.png" />
+	<file src="files/items/118.png" />
+	<file src="files/items/119.png" />
+	<file src="files/items/120.png" />
+	<file src="files/items/121.png" />
+	<file src="files/items/122.png" />
+	<file src="files/items/123.png" />
+	<file src="files/items/124.png" />
+	<file src="files/items/125.png" />
+	<file src="files/items/126.png" />
+	<file src="files/items/127.png" />
+	<file src="files/items/128.png" />
+	<file src="files/items/129.png" />
+	<file src="files/items/130.png" />
+	<file src="files/items/131.png" />
+	<file src="files/items/132.png" />
+	<file src="files/items/133.png" />
+	<file src="files/items/134.png" />
+	<file src="files/items/135.png" />
+	<file src="files/items/136.png" />
+	<file src="files/items/137.png" />
+	<file src="files/items/138.png" />
+	<file src="files/items/139.png" />
+	<file src="files/items/140.png" />
+	<file src="files/items/141.png" />
+	<file src="files/items/142.png" />
+	<file src="files/items/143.png" />
+	<file src="files/items/144.png" />
+	<file src="files/items/145.png" />
+	<file src="files/items/146.png" />
+	<file src="files/items/147.png" />
+	<file src="files/items/148.png" />
+	<file src="files/items/149.png" />
+	<file src="files/items/150.png" />
+	<file src="files/items/151.png" />
+	<file src="files/items/152.png" />
+	<file src="files/items/153.png" />
+	<file src="files/items/154.png" />
+	<file src="files/items/155.png" />
+	<file src="files/items/156.png" />
+	<file src="files/items/157.png" />
+	<file src="files/items/158.png" />
+	<file src="files/items/159.png" />
+	<file src="files/items/160.png" />
+	<file src="files/items/161.png" />
+	<file src="files/items/162.png" />
+	<file src="files/items/163.png" />
+	<file src="files/items/164.png" />
+	<file src="files/items/165.png" />
+	<file src="files/items/166.png" />
+	<file src="files/items/167.png" />
+	<file src="files/items/168.png" />
+	<file src="files/items/169.png" />
+	<file src="files/items/170.png" />
+	<file src="files/items/171.png" />
+	<file src="files/items/172.png" />
+	<file src="files/items/173.png" />
+	<file src="files/items/174.png" />
+	<file src="files/items/175.png" />
+	<file src="files/items/176.png" />
+	<file src="files/items/177.png" />
+	<file src="files/items/178.png" />
+	<file src="files/items/179.png" />
+	<file src="files/items/180.png" />
+	<file src="files/items/181.png" />
+	<file src="files/items/182.png" />
+	<file src="files/items/183.png" />
+	<file src="files/items/184.png" />
+	<file src="files/items/185.png" />
+	<file src="files/items/186.png" />
+	<file src="files/items/187.png" />
+	<file src="files/items/188.png" />
+	<file src="files/items/189.png" />
+	<file src="files/items/190.png" />
+	<file src="files/items/191.png" />
+	<file src="files/items/192.png" />
+	<file src="files/items/193.png" />
+	<file src="files/items/194.png" />
+	<file src="files/items/195.png" />
+	<file src="files/items/196.png" />
+	<file src="files/items/197.png" />
+	<file src="files/items/198.png" />
+	<file src="files/items/199.png" />
+	<file src="files/items/200.png" />
+	<file src="files/items/201.png" />
+	<file src="files/items/202.png" />
+	<file src="files/items/203.png" />
+	<file src="files/items/204.png" />
+	<file src="files/items/205.png" />
+	<file src="files/items/206.png" />
+	<file src="files/items/207.png" />
+	<file src="files/items/208.png" />
+	<file src="files/items/209.png" />
+	<file src="files/items/210.png" />
+	<file src="files/items/211.png" />
+	<file src="files/items/212.png" />
+	<file src="files/items/213.png" />
+	<file src="files/items/214.png" />
+	<file src="files/items/215.png" />
+	<file src="files/items/216.png" />
+	<file src="files/items/217.png" />
+	<file src="files/items/218.png" />
+	<file src="files/items/219.png" />
+	<file src="files/items/220.png" />
+	<file src="files/items/221.png" />
+	<file src="files/items/222.png" />
+	<file src="files/items/223.png" />
+	<file src="files/items/224.png" />
+	<file src="files/items/225.png" />
+	<file src="files/items/226.png" />
+	<file src="files/items/227.png" />
+	<file src="files/items/228.png" />
+	<file src="files/items/229.png" />
+	<file src="files/items/230.png" />
+	<file src="files/items/231.png" />
+	<file src="files/items/232.png" />
+	<file src="files/items/233.png" />
+	<file src="files/items/234.png" />
+	<file src="files/items/235.png" />
+	<file src="files/items/236.png" />
+	<file src="files/items/237.png" />
+	<file src="files/items/238.png" />
+	<file src="files/items/239.png" />
+	<file src="files/items/240.png" />
+	<file src="files/items/241.png" />
+	<file src="files/items/242.png" />
+	<file src="files/items/243.png" />
+	<file src="files/items/244.png" />
+	<file src="files/items/245.png" />
+	<file src="files/items/246.png" />
+	<file src="files/items/247.png" />
+	<file src="files/items/248.png" />
+	<file src="files/items/249.png" />
+	<file src="files/items/250.png" />
+	<file src="files/items/251.png" />
+	<file src="files/items/252.png" />
+	<file src="files/items/253.png" />
+	<file src="files/items/254.png" />
+	<file src="files/items/255.png" />
+	<file src="files/items/256.png" />
+	<file src="files/items/257.png" />
+	<file src="files/items/258.png" />
+	<file src="files/items/259.png" />
+	<file src="files/items/260.png" />
+	<file src="files/items/261.png" />
+	<file src="files/items/262.png" />
+	<file src="files/items/263.png" />
+	<file src="files/items/264.png" />
+	<file src="files/items/265.png" />
+	<file src="files/items/266.png" />
+	<file src="files/items/267.png" />
+	<file src="files/items/268.png" />
+	<file src="files/items/269.png" />
+	<file src="files/items/270.png" />
+	<file src="files/items/271.png" />
+	<file src="files/items/272.png" />
+	<file src="files/items/273.png" />
+	<file src="files/items/274.png" />
+	<file src="files/items/275.png" />
+	<file src="files/items/276.png" />
+	<file src="files/items/277.png" />
+	<file src="files/items/278.png" />
+	<file src="files/items/279.png" />
+	<file src="files/items/280.png" />
+	<file src="files/items/281.png" />
+	<file src="files/items/282.png" />
+	<file src="files/items/283.png" />
+	<file src="files/items/284.png" />
+	<file src="files/items/285.png" />
+	<file src="files/items/286.png" />
+	<file src="files/items/287.png" />
+	<file src="files/items/288.png" />
+	<file src="files/items/289.png" />
+	<file src="files/items/290.png" />
+	<file src="files/items/291.png" />
+	<file src="files/items/292.png" />
+	<file src="files/items/292_monochrome.png" />
+	<file src="files/items/293.png" />
+	<file src="files/items/294.png" />
+	<file src="files/items/294_monochrome.png" />
+	<file src="files/items/295.png" />
+	<file src="files/items/295_monochrome.png" />
+	<file src="files/items/296.png" />
+	<file src="files/items/297.png" />
+	<file src="files/items/298.png" />
+	<file src="files/items/299.png" />
+	<file src="files/items/300.png" />
+	<file src="files/items/301.png" />
+	<file src="files/items/302.png" />
+	<file src="files/items/303.png" />
+	<file src="files/items/304.png" />
+	<file src="files/items/305.png" />
+	<file src="files/items/306.png" />
+	<file src="files/items/307.png" />
+	<file src="files/items/308.png" />
+	<file src="files/items/309.png" />
+	<file src="files/items/310.png" />
+	<file src="files/items/311.png" />
+	<file src="files/items/312.png" />
+	<file src="files/items/313.png" />
+	<file src="files/items/314.png" />
+	<file src="files/items/314_2.png" />
+	<file src="files/items/315.png" />
+	<file src="files/items/316.png" />
+	<file src="files/items/317.png" />
+	<file src="files/items/318.png" />
+	<file src="files/items/319.png" />
+	<file src="files/items/320.png" />
+	<file src="files/items/321.png" />
+	<file src="files/items/322.png" />
+	<file src="files/items/323.png" />
+	<file src="files/items/324.png" />
+	<file src="files/items/325.png" />
+	<file src="files/items/326.png" />
+	<file src="files/items/327.png" />
+	<file src="files/items/328.png" />
+	<file src="files/items/329.png" />
+	<file src="files/items/330.png" />
+	<file src="files/items/331.png" />
+	<file src="files/items/332.png" />
+	<file src="files/items/333.png" />
+	<file src="files/items/334.png" />
+	<file src="files/items/335.png" />
+	<file src="files/items/336.png" />
+	<file src="files/items/337.png" />
+	<file src="files/items/338.png" />
+	<file src="files/items/339.png" />
+	<file src="files/items/340.png" />
+	<file src="files/items/341.png" />
+	<file src="files/items/342.png" />
+	<file src="files/items/343.png" />
+	<file src="files/items/344.png" />
+	<file src="files/items/345.png" />
+	<file src="files/items/346.png" />
+	<file src="files/items/347.png" />
+	<file src="files/items/348.png" />
+	<file src="files/items/349.png" />
+	<file src="files/items/350.png" />
+	<file src="files/items/351.png" />
+	<file src="files/items/352.png" />
+	<file src="files/items/353.png" />
+	<file src="files/items/354.png" />
+	<file src="files/items/355.png" />
+	<file src="files/items/356.png" />
+	<file src="files/items/357.png" />
+	<file src="files/items/358.png" />
+	<file src="files/items/359.png" />
+	<file src="files/items/360.png" />
+	<file src="files/items/361.png" />
+	<file src="files/items/362.png" />
+	<file src="files/items/363.png" />
+	<file src="files/items/364.png" />
+	<file src="files/items/365.png" />
+	<file src="files/items/366.png" />
+	<file src="files/items/367.png" />
+	<file src="files/items/368.png" />
+	<file src="files/items/369.png" />
+	<file src="files/items/370.png" />
+	<file src="files/items/371.png" />
+	<file src="files/items/372.png" />
+	<file src="files/items/373.png" />
+	<file src="files/items/373_monochrome.png" />
+	<file src="files/items/374.png" />
+	<file src="files/items/374_monochrome.png" />
+</meta>

@@ -1,0 +1,12 @@
+<meta>
+    
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/shark.txd" />
+    <file src="files/shark.dff" />
+    <file src="files/splash.mp3" />
+</meta>

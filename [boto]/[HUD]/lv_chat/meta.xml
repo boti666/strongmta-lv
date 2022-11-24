@@ -1,0 +1,7 @@
+<metaConfig>
+    
+    <script src="sourceC.luac" type="client" cache="false" />
+    <export function="localActionC" type="client" />
+    <export function="sendLocalDoC" type="client" />
+    
+</metaConfig>

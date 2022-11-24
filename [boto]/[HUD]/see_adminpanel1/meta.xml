@@ -1,0 +1,21 @@
+<meta>
+    <download_priority_group>-1</download_priority_group>
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="shared" function="showInfo" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/chat.html" />
+    <file src="files/delete.png" />
+    <file src="files/noti.mp3" />
+    <file src="files/noti.png" />
+    <file src="files/Roboto.ttf" />
+    <file src="files/roboto.woff" />
+    <file src="files/roboto.woff2" />
+    <file src="files/send.png" />
+    <file src="files/refresh.png" />
+    
+</meta>

@@ -1,0 +1,10 @@
+<meta>
+	<info author="Drex" version="1.1" name="Bailes de Fortnite" type="script" />
+	<export function="setPedFortniteAnimation" type="shared" />
+	<file src="Fortnite pt1.ifp" />
+	<file src="Fortnite pt2.ifp" />
+	<file src="Fortnite pt3.ifp" />
+ 
+ <script src="client.lua" type="client" cache="false" />
+ <script src="server.lua" type="sever" cache="false" />
+</meta>

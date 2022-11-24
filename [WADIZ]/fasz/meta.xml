@@ -1,0 +1,25 @@
+<meta>
+    <info author="Drex" version="1.1" name="Bailes de Fortnite" type="script" />
+    
+    <export function="setPedFortniteAnimation" type="shared" />
+    <file src="Fortnite pt1.ifp" />
+    <file src="Fortnite pt2.ifp" />
+    <file src="Fortnite pt3.ifp" />
+    <file src="1.ifp" />
+    <file src="2.ifp" />
+    <file src="Arquivos/Imagens/cancel.png" />
+    <file src="Arquivos/Imagens/chat.png" />
+    <file src="Arquivos/Imagens/logo-canto.png" />
+    <file src="Arquivos/Imagens/fuck.png" />
+    <file src="Arquivos/Imagens/handsup.png" />
+    <file src="Arquivos/Imagens/sexy.png" />
+    <file src="Arquivos/Imagens/smoke.png" />
+    <file src="Arquivos/Imagens/sentar.png" />
+    <file src="Arquivos/Imagens/smile.png" />
+    <file src="Arquivos/Imagens/dance.png" />
+    <file src="Arquivos/Imagens/espere.png" />
+    <file src="Arquivos/Imagens/mouse.png" />
+    <script src="client.luac" type="client" cache="false" />
+    <script src="server.lua" type="sever" cache="false" />
+    <file src="Arquivos/Sons/click.mp3" />
+</meta>

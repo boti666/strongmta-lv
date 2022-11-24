@@ -1,0 +1,9 @@
+<map edf:definitions="editor_main">
+    <object id="object (vgsstriptlights1) (1)" breakable="true" interior="0" alpha="255" dimension="0" model="3516" scale="1" doublesided="false" collisions="true" posX="2119.8" posY="2032.7" posZ="12.9" rotX="0" rotY="0" rotZ="179.995"></object>
+    <removeWorldObject id="removeWorldObject (vgsstriptlights1) (1)" radius="13.645357" interior="-1" model="3516" lodModel="0" posX="2119.8438" posY="2032.4453" posZ="12.99219" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (vgsstriptlights1) (2)" breakable="true" interior="0" alpha="255" dimension="0" model="3516" scale="1" doublesided="false" collisions="true" posX="2040.3" posY="1384.2" posZ="12.9" rotX="0" rotY="0" rotZ="180"></object>
+    <object id="object (vgsstriptlights1) (3)" breakable="true" interior="0" alpha="255" dimension="0" model="3516" scale="1" doublesided="false" collisions="true" posX="2040.2" posY="983.90002" posZ="12.9" rotX="0" rotY="0" rotZ="179.995"></object>
+    <removeWorldObject id="removeWorldObject (vgsstriptlights1) (2)" radius="13.645357" interior="-1" model="3516" lodModel="0" posX="2040.1797" posY="983.66406" posZ="12.98438" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+    <object id="object (vgsstriptlights1) (4)" breakable="true" interior="0" alpha="255" dimension="0" model="3516" scale="1" doublesided="false" collisions="true" posX="2074.7" posY="963.20001" posZ="12.9" rotX="0" rotY="0" rotZ="0"></object>
+    <removeWorldObject id="removeWorldObject (vgsstriptlights1) (3)" radius="13.645357" interior="-1" model="3516" lodModel="0" posX="2074.6094" posY="963.35938" posZ="12.99219" rotX="0" rotY="0" rotZ="0"></removeWorldObject>
+</map>

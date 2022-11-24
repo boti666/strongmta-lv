@@ -1,0 +1,28 @@
+<meta>
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="server" function="helpUpPerson" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/Roboto.ttf" />
+    
+    <file src="files/damage.fx" />
+    <file src="files/vignette.fx" />
+    <file src="files/heartbeat.ogg" />
+    <file src="files/tinnitus.ogg" />
+    <file src="files/arrow.png" />
+    
+    <file src="files/splatters/1.png" />
+    <file src="files/splatters/2.png" />
+    <file src="files/splatters/3.png" />
+    <file src="files/splatters/4.png" />
+    
+    <file src="files/splatters/g1.png" />
+    <file src="files/splatters/g2.png" />
+    <file src="files/splatters/g3.png" />
+    <file src="files/splatters/g4.png" />
+</meta>

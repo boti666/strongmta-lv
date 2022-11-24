@@ -1,0 +1,15 @@
+<meta>
+    
+    <script type="server" src="sourceS.lua" />
+    
+    <script type="server" src="mechanicS.lua" cache="false" />
+    <script type="client" src="mechanicC.luac" cache="false" />
+    
+    <script type="server" src="medicS.lua" cache="false" />
+    <script type="client" src="medicC.luac" cache="false" />
+    
+    <script type="server" src="taxiS.lua" cache="false" />
+    <script type="client" src="taxiC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+</meta>

@@ -1,0 +1,9 @@
+<meta>
+    <script src="sourceC.luac" type="client" cache="false" />
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    
+    <file src="files/Roboto.ttf" />
+    
+    <file src="files/roll.mp3" />
+</meta>

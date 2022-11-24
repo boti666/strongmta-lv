@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		
+		<link rel="stylesheet" href="font-awesome/style.css">
+		
+		<style>
+			@font-face {
+				font-family: 'Roboto';
+				font-style: normal;
+				font-weight: 400;
+				src: local('Roboto'), local('Roboto-Regular'), url('roboto.woff2') format('woff2');
+			}
+
+			@font-face {
+				font-family: 'Roboto';
+				font-style: normal;
+				font-weight: 700;
+				src: local('Roboto Bold'), local('Roboto-Bold'), url('roboto-bold.woff2') format('woff2');
+			}
+
+			* {
+				margin: 0;
+				padding: 0;
+				font-family: 'Roboto', sans-serif;
+				overflow: hidden;
+				color: #ffffff;
+			}
+
+			#innercontents {
+				position: absolute;
+			}
+
+			#chatinput {
+				position: absolute;
+				visibility: hidden;
+			}
+
+			#oocinnercontents {
+				position: absolute;
+			}
+
+			#oocchatinput {
+				position: absolute;
+				visibility: hidden;
+			}
+
+			#preview {
+				position: absolute;
+				visibility: hidden;
+			}
+		</style>
+
+		<style id="shadow">
+			* {
+				text-shadow: 1px 1px #000000;
+			}
+		</style>
+	</head>
+	<body>
+		<div id="actual">
+			<div id="innercontents"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
+			<div id="chatinput"></div>
+			<div id="oocinnercontents"><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/></div>
+			<div id="oocchatinput"></div>
+		</div>
+		<div id="preview">
+			<b><font style="color: #598ed7;">[StrongMTA]:</b> <font style="color: #ffffff;">Teszt</font><br/>
+			<b><font style="color: #3d7abc;">[StrongMTA]:</b> <font style="color: #ffffff;">Teszt</font><br/>
+			<div style="background: #fff;">
+				<div id="preview2">
+					<b><font style="color: #598ed7;">[StrongMTA]:</b> <font style="color: #ffffff;">Teszt</font><br/>
+					<b><font style="color: #3d7abc;">[StrongMTA]:</b> <font style="color: #ffffff;">Teszt</font><br/>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

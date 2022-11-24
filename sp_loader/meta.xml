@@ -1,0 +1,20 @@
+<meat>
+
+	<script src="sourceC.lua" type="client" cache="false" />
+
+	<file src="files/1.png" />
+	<file src="files/2.png" />
+	<file src="files/3.png" />
+	<file src="files/4.png" />
+	<file src="files/5.png" />
+	<file src="files/6.png" />
+	<file src="files/sp1.png" />
+	<file src="files/sp2.png" />
+
+	<file src="files/BebasNeueBold.otf" />
+	<file src="files/BebasNeueRegular.otf" />
+	<file src="files/Roboto.ttf" />
+
+	<file src="files/loading.mp3" />
+
+</meat>

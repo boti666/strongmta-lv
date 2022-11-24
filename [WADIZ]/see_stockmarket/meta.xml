@@ -1,0 +1,10 @@
+<meta>
+    
+    <download_priority_group>-4</download_priority_group>
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <file src="lunabar.ttf" />
+</meta>

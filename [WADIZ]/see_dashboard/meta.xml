@@ -1,0 +1,88 @@
+<meta>
+    <download_priority_group>-3</download_priority_group>
+    
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7-9.19626" />
+    
+    <file src="files/fonts/Roboto.ttf" />
+    <file src="files/fonts/RobotoL.ttf" />
+    <file src="files/fonts/RobotoB.ttf" />
+    <file src="files/fonts/lunabar.ttf" />
+    
+    <file src="files/69e0c027" />
+    
+    <file src="files/edit.png" />
+    
+    <file src="files/sounds/open.mp3" />
+    <file src="files/sounds/close.mp3" />
+    <file src="files/sounds/menuswitch.mp3" />
+    <file src="files/sounds/menuswitch2.mp3" />
+    <file src="files/sounds/switchoption.mp3" />
+    <file src="files/sounds/notification.mp3" />
+    <file src="files/sounds/sign.mp3" />
+    <file src="files/sounds/prompt.mp3" />
+    <file src="files/sounds/promptaccept.mp3" />
+    <file src="files/sounds/promptdecline.mp3" />
+    
+    <file src="files/images/logo.png" />
+    <file src="files/strong.png" />
+    <file src="files/images/adasveteli.png" />
+    <file src="files/images/tabs/0.png" />
+    <file src="files/images/tabs/1.png" />
+    <file src="files/images/tabs/2.png" />
+    <file src="files/images/tabs/3.png" />
+    <file src="files/images/tabs/4.png" />
+    <file src="files/images/tabs/5.png" />
+    <file src="files/images/tabs/6.png" />
+    
+    <file src="files/images/dogs/1.png" />
+    <file src="files/images/dogs/2.png" />
+    <file src="files/images/dogs/3.png" />
+    <file src="files/images/dogs/4.png" />
+    <file src="files/images/dogs/5.png" />
+    <file src="files/images/dogs/6.png" />
+    
+    <file src="files/cars/400.png" />
+    <file src="files/cars/401.png" />
+    <file src="files/cars/402.png" />
+    <file src="files/cars/404.png" />
+    <file src="files/cars/405.png" />
+    <file src="files/cars/410.png" />
+    <file src="files/cars/411.png" />
+    <file src="files/cars/412.png" />
+    <file src="files/cars/413.png" />
+    <file src="files/cars/415.png" />
+    <file src="files/cars/416.png" />
+    <file src="files/cars/418.png" />
+    <file src="files/cars/420.png" />
+    <file src="files/cars/424.png" />
+    <file src="files/cars/426.png" />
+    <file src="files/cars/429.png" />
+    <file src="files/cars/434.png" />
+    <file src="files/cars/436.png" />
+    <file src="files/cars/438.png" />
+    <file src="files/cars/439.png" />
+    <file src="files/cars/445.png" />
+    <file src="files/cars/451.png" />
+    <file src="files/cars/457.png" />
+    <file src="files/cars/458.png" />
+    
+    <file src="files/images/vehicletypes/Automobile.png" />
+    <file src="files/images/vehicletypes/Bike.png" />
+    <file src="files/images/vehicletypes/BMX.png" />
+    <file src="files/images/vehicletypes/Boat.png" />
+    <file src="files/images/vehicletypes/Helicopter.png" />
+    <file src="files/images/vehicletypes/Plane.png" />
+    <file src="files/BlurShader.fx" />
+    
+    <file src="files/op.png" />
+    <file src="files/op-ex.png" />
+    
+    
+    <file src="files/images/vehicletypes/Quad.png" />
+    
+</meta>

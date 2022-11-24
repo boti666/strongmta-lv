@@ -1,0 +1,11 @@
+<meta>
+    
+    
+    <include resource="dynamic_lighting" />
+    <include resource="custom_coronas" />
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+</meta>

@@ -1,0 +1,476 @@
+<meta>
+    <include resource="custom_coronas" />
+    
+    <download_priority_group>-2</download_priority_group>
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.lua" cache="false" />
+
+    <!--script src="scoreboard/renderC.lua" type="client" cache="false" />
+	<script src="scoreboard/barC.lua" type="client" cache="false" />
+    <script src="scoreboard/mainC.lua" type="client" cache="false" /-->
+    <script src="scoreboard/sourceC.lua" type="client" cache="false" />
+    
+    <script type="client" src="infobox/sourceC.lua" cache="false" />
+    <script type="client" src="stamina/sourceC.lua" cache="false" />
+    <script type="client" src="minimap/sourceC.lua" cache="false" />
+    <script type="client" src="minimap/gps/vehicleNodes.lua" cache="false" />
+    <script type="client" src="minimap/gps/sourceC.lua" cache="false" />
+    <script type="client" src="speedo/sourceC.lua" cache="false" />
+    <script type="client" src="customchat/sourceC.lua" cache="false" />
+    
+    <export type="client" function="getResponsiveMultipler" />
+    <export type="client" function="showHUD" />
+    <export type="client" function="hideHUD" />
+    <export type="shared" function="showInfobox" />
+    <export type="client" function="showTheLoadScreen" />
+    <export type="client" function="processActionBarShowHide" />
+    <export type="client" function="addJobBlips" />
+    <export type="client" function="delJobBlips" />
+    <export type="client" function="showInteriorBox" />
+    <export type="client" function="endInteriorBox" />
+    <export type="client" function="setInteriorDoorState" />
+    <export type="client" function="getChatInstance" />
+    <export type="client" function="getChatBackgroundAlpha" />
+    <export type="client" function="setChatBackgroundAlpha" />
+    <export type="client" function="getChatFontBackgroundAlpha" />
+    <export type="client" function="setChatFontBackgroundAlpha" />
+    <export type="client" function="getChatFontSize" />
+    <export type="client" function="setChatFontSize" />
+    <export type="client" function="setChatType" />
+    <export type="client" function="getChatType" />
+    <export type="client" function="toggleChat" />
+    <export type="client" function="renderSpeedoForTest" />
+    <export type="client" function="setPokerMode" />
+    
+    <min_mta_version client="1.5.7-9.19626" />
+    
+    <file src="files/fonts/BrushScriptStd.ttf" />
+    <file src="files/fonts/gtaFont.ttf" />
+    <file src="files/fonts/Roboto.ttf" />
+    <file src="files/fonts/RobotoB.ttf" />
+    <file src="files/fonts/RobotoL.ttf" />
+    <file src="files/fonts/bitsu.ttf" />
+    <file src="files/fonts/RalewayE.ttf" />
+    <file src="files/fonts/RalewayB.ttf" />
+    
+    <file src="files/sounds/traffi.mp3" />
+    <file src="files/sounds/overheat.mp3" />
+    <file src="files/sounds/i.mp3" />
+    <file src="files/sounds/s.mp3" />
+    <file src="files/sounds/w.mp3" />
+    <file src="files/sounds/e.mp3" />
+    <file src="files/sounds/moneychange.mp3" />
+    <file src="files/sounds/urmasound.mp3" />
+    <file src="files/sounds/loading.mp3" />
+    
+    <file src="customchat/files/font-awesome/fontawesome-webfont.eot" />
+    <file src="customchat/files/font-awesome/fontawesome-webfont.svg" />
+    <file src="customchat/files/font-awesome/fontawesome-webfont.ttf" />
+    <file src="customchat/files/font-awesome/fontawesome-webfont.woff" />
+    <file src="customchat/files/font-awesome/fontawesome-webfont.woff2" />
+    <file src="customchat/files/font-awesome/style.css" />
+    <file src="customchat/files/roboto.woff2" />
+    <file src="customchat/files/roboto-bold.woff2" />
+    <file src="customchat/files/index.html" />
+    
+    <file src="speedo/images/base.png" />
+    <file src="speedo/images/baseglow.png" />
+    <file src="speedo/images/fuelbase.png" />
+    <file src="speedo/images/fuelbaseglow.png" />
+    <file src="speedo/images/fuelindicator.png" />
+    <file src="speedo/images/fuelline.png" />
+    <file src="speedo/images/fuelnum.png" />
+    <file src="speedo/images/fuelnum2.png" />
+    <file src="speedo/images/icon.png" />
+    <file src="speedo/images/iconglow.png" />
+    <file src="speedo/images/indicator.png" />
+    <file src="speedo/images/indicatorline.png" />
+    <file src="speedo/images/line.png" />
+    <file src="speedo/images/name.png" />
+    <file src="speedo/images/nitro.png" />
+    <file src="speedo/images/nitrolevel.png" />
+    <file src="speedo/images/num.png" />
+    <file src="speedo/images/num2.png" />
+    <file src="speedo/images/seatbelt0.png" />
+    <file src="speedo/images/seatbelt1.png" />
+    
+    <file src="infobox/ban.png" />
+    <file src="infobox/barn1.png" />
+    <file src="infobox/barn2.png" />
+    <file src="infobox/barn3.png" />
+    <file src="infobox/doorclose.png" />
+    <file src="infobox/dooropen.png" />
+    <file src="infobox/duty.png" />
+    <file src="infobox/garageclose.png" />
+    <file src="infobox/garageopen.png" />
+    <file src="infobox/kick.png" />
+    <file src="infobox/carshop.png" />
+    
+    <file src="minimap/gps/sgo.png" />
+    <file src="minimap/gps/dot.png" />
+    <file src="minimap/gps/left.png" />
+    <file src="minimap/gps/right.png" />
+    <file src="minimap/gps/forward.png" />
+    <file src="minimap/gps/around.png" />
+    <file src="minimap/gps/refresh.png" />
+    <file src="minimap/gps/end.png" />
+    
+    <file src="minimap/gps/sound/50.mp3" />
+    <file src="minimap/gps/sound/200.mp3" />
+    <file src="minimap/gps/sound/500.mp3" />
+    <file src="minimap/gps/sound/1000.mp3" />
+    <file src="minimap/gps/sound/balra.mp3" />
+    <file src="minimap/gps/sound/jobbra.mp3" />
+    <file src="minimap/gps/sound/egyenes.mp3" />
+    <file src="minimap/gps/sound/ding.mp3" />
+    <file src="minimap/gps/sound/majd.mp3" />
+    <file src="minimap/gps/sound/menj.mp3" />
+    <file src="minimap/gps/sound/metert.mp3" />
+    <file src="minimap/gps/sound/nincskapcs.mp3" />
+    <file src="minimap/gps/sound/ujratervezes.mp3" />
+    <file src="minimap/gps/sound/masikuticel.mp3" />
+    <file src="minimap/gps/sound/forduljvissza.mp3" />
+    <file src="minimap/gps/sound/finish.mp3" />
+    <file src="minimap/gps/sound/uticel.mp3" />
+    
+    <file src="minimap/radar.png" />
+    <file src="minimap/jobblips/fuel.png" />
+    <file src="minimap/jobblips/247.png" />
+    <file src="minimap/jobblips/abc.png" />
+    <file src="minimap/jobblips/bb.png" />
+    <file src="minimap/jobblips/burger.png" />
+    <file src="minimap/jobblips/carshop.png" />
+    <file src="minimap/jobblips/cluckin.png" />
+    <file src="minimap/jobblips/donut.png" />
+    <file src="minimap/jobblips/electro.png" />
+    <file src="minimap/jobblips/fcbbq.png" />
+    <file src="minimap/jobblips/fch.png" />
+    <file src="minimap/jobblips/fix.png" />
+    <file src="minimap/jobblips/fruit.png" />
+    <file src="minimap/jobblips/gasso.png" />
+    <file src="minimap/jobblips/hobby.png" />
+    <file src="minimap/jobblips/jefferson.png" />
+    <file src="minimap/jobblips/ls.png" />
+    <file src="minimap/jobblips/lvh.png" />
+    <file src="minimap/jobblips/lvoil.png" />
+    <file src="minimap/jobblips/oil.png" />
+    <file src="minimap/jobblips/rockshore.png" />
+    <file src="minimap/jobblips/seeburger.png" />
+    <file src="minimap/jobblips/sf.png" />
+    <file src="minimap/jobblips/sh.png" />
+    <file src="minimap/jobblips/warehouse.png" />
+    <file src="minimap/jobblips/wh.png" />
+    <file src="minimap/jobblips/xoomer.png" />
+    <file src="minimap/jobblips/zoldseges.png" />
+    <file src="minimap/newblips/impound.png" />
+    <file src="minimap/newblips/autosiskola.png" />
+    <file src="minimap/newblips/bank.png" />
+    <file src="minimap/newblips/banya.png" />
+    <file src="minimap/newblips/binco.png" />
+    <file src="minimap/newblips/boat.png" />
+    <file src="minimap/newblips/burger.png" />
+    <file src="minimap/newblips/pawn.png" />
+    <!--<file src="minimap/newblips/carrent.png" />-->
+    <file src="minimap/newblips/carshop.png" />
+    <file src="minimap/newblips/cb.png" />
+    <file src="minimap/newblips/cblip.png" />
+    <file src="minimap/newblips/change.png" />
+    <file src="minimap/newblips/club.png" />
+    <file src="minimap/newblips/crab.png" />
+    <file src="minimap/newblips/favago.png" />
+    <file src="minimap/newblips/fisherman.png" />
+    <file src="minimap/newblips/fuel.png" />
+    <file src="minimap/newblips/gyar.png" />
+    <file src="minimap/newblips/hatar.png" />
+    <file src="minimap/newblips/hunting.png" />
+    <file src="minimap/newblips/hunting2.png" />
+    <file src="minimap/newblips/junkyard.png" />
+    <file src="minimap/newblips/kikoto.png" />
+    <file src="minimap/newblips/kocsma.png" />
+    <file src="minimap/newblips/korhaz.png" />
+    <file src="minimap/newblips/kosar.png" />
+    <file src="minimap/newblips/kukamunka.png" />
+    <file src="minimap/newblips/loter.png" />
+    <file src="minimap/newblips/lottoblip.png" />
+    <file src="minimap/newblips/markblip.png" />
+    <file src="minimap/newblips/markblip2.png" />
+    <file src="minimap/newblips/motel.png" />
+    <file src="minimap/newblips/munkajarmu.png" />
+    <file src="minimap/newblips/pd.png" />
+    <file src="minimap/newblips/plaza.png" />
+    <file src="minimap/newblips/repter.png" />
+    <file src="minimap/newblips/sheriffblip.png" />
+    <file src="minimap/newblips/shop_h.png" />
+    <file src="minimap/newblips/szerelo.png" />
+    <file src="minimap/newblips/szerelo_boat.png" />
+    <file src="minimap/newblips/szerelo_heli.png" />
+    <file src="minimap/newblips/templom.png" />
+    <file src="minimap/newblips/tuning.png" />
+    <file src="minimap/newblips/versenypalya.png" />
+    <file src="minimap/newblips/vh.png" />
+    <file src="minimap/newblips/cross.png" />
+    <file src="minimap/newblips/target.png" />
+    <file src="minimap/newblips/north.png" />
+    <file src="minimap/files/f11radarclose.mp3" />
+    <file src="minimap/files/f11radaropen.mp3" />
+    <file src="minimap/files/gpslosticon.png" />
+    <file src="minimap/files/gpslostszoveg.png" />
+    <file src="minimap/files/nosignalszoveg.png" />
+    <file src="minimap/files/arrow.png" />
+    <file src="minimap/radar.jpg" />
+    
+
+    <script src="mobile/sourceC.lua" type="client" cache="false" />
+    <script src="mobile/sourceS.lua" />
+    
+    <file src="mobile/moto-g.png" />
+    <file src="mobile/menu.png" />
+    <file src="mobile/buttons.png" />
+    <file src="mobile/icons.png" />
+    
+    <file src="mobile/selfie.png" />
+
+    <file src="files/Roboto.ttf" />
+    <file src="files/RobotoL.ttf" />
+    <file src="files/RobotoB.ttf" />
+    
+    <file src="mobile/add.png" />
+    <file src="mobile/user.png" />
+    <file src="mobile/call.png" />
+    <file src="mobile/delete.png" />
+    <file src="mobile/smsicon.png" />
+    <file src="mobile/addcontact.png" />
+    <file src="mobile/back.png" />
+    
+    <file src="mobile/dialer.png" />
+    <file src="mobile/missedicon.png" />
+    <file src="mobile/outicon.png" />
+    <file src="mobile/inicon.png" />
+    
+    <file src="mobile/calculator.png" />
+    
+    <file src="mobile/smsopen.png" />
+    <file src="mobile/sms.png" />
+    
+    <file src="mobile/incoming.png" />
+    <file src="mobile/incoming_pre.png" />
+    
+    <file src="mobile/talking.png" />
+    
+    <file src="mobile/taskmissed.png" />
+    <file src="mobile/tasksms.png" />
+    
+    <file src="mobile/sounds/2/mobile147.mp3" />
+    <file src="mobile/sounds/2/mobile258.mp3" />
+    <file src="mobile/sounds/2/mobile369.mp3" />
+    <file src="mobile/sounds/2/mobilebusy.mp3" />
+    <file src="mobile/sounds/2/mobiledecline.mp3" />
+    <file src="mobile/sounds/2/mobilelockscreen.mp3" />
+    <file src="mobile/sounds/2/mobilecam.mp3" />
+    <file src="mobile/sounds/2/mobilebuttosnel.mp3" />
+    <file src="mobile/sounds/2/mobilecallsound.mp3" />
+    
+    <file src="mobile/wallpapers/1.png" />
+    <file src="mobile/wallpapers/2.png" />
+    <file src="mobile/wallpapers/3.png" />
+    <file src="mobile/wallpapers/4.png" />
+    <file src="mobile/wallpapers/5.png" />
+    <file src="mobile/wallpapers/6.png" />
+    <file src="mobile/wallpapers/7.png" />
+    <file src="mobile/wallpapers/8.png" />
+    <file src="mobile/wallpapers/9.png" />
+    <file src="mobile/wallpapers/10.png" />
+    <file src="mobile/wallpapers/11.png" />
+    <file src="mobile/wallpapers/12.png" />
+    <file src="mobile/wallpapers/13.png" />
+    
+    <file src="mobile/sounds/bubble.mp3" />
+    <file src="mobile/sounds/noti.mp3" />
+    <file src="mobile/sounds/ringatria.mp3" />
+    <file src="mobile/sounds/ringcallisto.mp3" />
+    <file src="mobile/sounds/ringdione.mp3" />
+    <file src="mobile/sounds/ringganymede.mp3" />
+    <file src="mobile/sounds/ringluna.mp3" />
+    <file src="mobile/sounds/ringoberon.mp3" />
+    <file src="mobile/sounds/ringphobos.mp3" />
+    <file src="mobile/sounds/ringpyxis.mp3" />
+    <file src="mobile/sounds/ringsedna.mp3" />
+    <file src="mobile/sounds/ringtitania.mp3" />
+    <file src="mobile/sounds/ringtriton.mp3" />
+    <file src="mobile/sounds/ringumbriel.mp3" />
+    <file src="mobile/sounds/smsariel.mp3" />
+    <file src="mobile/sounds/smscarme.mp3" />
+    <file src="mobile/sounds/smsceres.mp3" />
+    <file src="mobile/sounds/smselara.mp3" />
+    <file src="mobile/sounds/smseuropa.mp3" />
+    <file src="mobile/sounds/smslapetus.mp3" />
+    <file src="mobile/sounds/smslo.mp3" />
+    <file src="mobile/sounds/smsrhea.mp3" />
+    <file src="mobile/sounds/smssalacia.mp3" />
+    <file src="mobile/sounds/smstethys.mp3" />
+    <file src="mobile/sounds/smstitan.mp3" />
+    <file src="mobile/sounds/vibrate.mp3" />
+    
+    <file src="mobile/sim.png" />
+    <file src="mobile/sound.png" />
+    <file src="mobile/vibrate.png" />
+    <file src="mobile/wallpaper.png" />
+    <file src="mobile/ringtone.png" />
+    <file src="mobile/on.png" />
+    <file src="mobile/off.png" />
+    
+    <file src="mobile/tick.png" />
+    <file src="mobile/untick.png" />
+    <file src="mobile/play.png" />
+    
+    <file src="mobile/hextris/images/android.png" />
+    <file src="mobile/hextris/images/facebook-opengraph.png" />
+    <file src="mobile/hextris/images/twitter-opengraph.png" />
+    <file src="mobile/hextris/images/appstore.svg" />
+    <file src="mobile/hextris/images/btn_back.svg" />
+    <file src="mobile/hextris/images/btn_facebook.svg" />
+    <file src="mobile/hextris/images/btn_help.svg" />
+    <file src="mobile/hextris/images/btn_pause.svg" />
+    <file src="mobile/hextris/images/btn_restart.svg" />
+    <file src="mobile/hextris/images/btn_resume.svg" />
+    <file src="mobile/hextris/images/btn_share.svg" />
+    <file src="mobile/hextris/images/btn_twitter.svg" />
+    <file src="mobile/hextris/images/icon_arrows.svg" />
+    <file src="mobile/hextris/js/Block.js" />
+    <file src="mobile/hextris/js/checking.js" />
+    <file src="mobile/hextris/js/comboTimer.js" />
+    <file src="mobile/hextris/js/Hex.js" />
+    <file src="mobile/hextris/js/initialization.js" />
+    <file src="mobile/hextris/js/input.js" />
+    <file src="mobile/hextris/js/main.js" />
+    <file src="mobile/hextris/js/math.js" />
+    <file src="mobile/hextris/js/render.js" />
+    <file src="mobile/hextris/js/save-state.js" />
+    <file src="mobile/hextris/js/Text.js" />
+    <file src="mobile/hextris/js/update.js" />
+    <file src="mobile/hextris/js/view.js" />
+    <file src="mobile/hextris/js/wavegen.js" />
+    <file src="mobile/hextris/vendor/hammer.min.js" />
+    <file src="mobile/hextris/vendor/jquery.js" />
+    <file src="mobile/hextris/vendor/js.cookie.js" />
+    <file src="mobile/hextris/vendor/jsonfn.min.js" />
+    <file src="mobile/hextris/vendor/keypress.min.js" />
+    <file src="mobile/hextris/vendor/rrssb.min.js" />
+    <file src="mobile/hextris/style/rrssb.css" />
+    <file src="mobile/hextris/style/style.css" />
+    <file src="mobile/hextris/style/fa/css/font-awesome.css" />
+    <file src="mobile/hextris/style/fa/css/font-awesome.min.css" />
+    <file src="mobile/hextris/style/fa/fonts/FontAwesome.otf" />
+    <file src="mobile/hextris/style/fa/fonts/fontawesome-webfont.eot" />
+    <file src="mobile/hextris/style/fa/fonts/fontawesome-webfont.svg" />
+    <file src="mobile/hextris/style/fa/fonts/fontawesome-webfont.ttf" />
+    <file src="mobile/hextris/style/fa/fonts/fontawesome-webfont.woff" />
+    <file src="mobile/hextris/favicon.ico" />
+    <file src="mobile/hextris/index.html" />
+    
+    <file src="mobile/invaders/images/sprites.png" />
+    <file src="mobile/invaders/base.css" />
+    <file src="mobile/invaders/engine.js" />
+    <file src="mobile/invaders/game.js" />
+    <file src="mobile/invaders/game.manifest" />
+    <file src="mobile/invaders/index.html" />
+    
+    <file src="files/images/traf1.png" />
+    <file src="files/images/traf2.png" />
+    <file src="files/images/tick.png" />
+    <file src="files/images/tick_on.png" />
+    <file src="files/images/weapons/0.png" />
+    <file src="files/images/weapons/1.png" />
+    <file src="files/images/weapons/2.png" />
+    <file src="files/images/weapons/3.png" />
+    <file src="files/images/weapons/4.png" />
+    <file src="files/images/weapons/5.png" />
+    <file src="files/images/weapons/6.png" />
+    <file src="files/images/weapons/7.png" />
+    <file src="files/images/weapons/8.png" />
+    <file src="files/images/weapons/9.png" />
+    <file src="files/images/weapons/10.png" />
+    <file src="files/images/weapons/11.png" />
+    <file src="files/images/weapons/12.png" />
+    <file src="files/images/weapons/13.png" />
+    <file src="files/images/weapons/14.png" />
+    <file src="files/images/weapons/15.png" />
+    <file src="files/images/weapons/16.png" />
+    <file src="files/images/weapons/17.png" />
+    <file src="files/images/weapons/18.png" />
+    <file src="files/images/weapons/22.png" />
+    <file src="files/images/weapons/23.png" />
+    <file src="files/images/weapons/24.png" />
+    <file src="files/images/weapons/25.png" />
+    <file src="files/images/weapons/26.png" />
+    <file src="files/images/weapons/27.png" />
+    <file src="files/images/weapons/28.png" />
+    <file src="files/images/weapons/29.png" />
+    <file src="files/images/weapons/30.png" />
+    <file src="files/images/weapons/31.png" />
+    <file src="files/images/weapons/32.png" />
+    <file src="files/images/weapons/33.png" />
+    <file src="files/images/weapons/34.png" />
+    <file src="files/images/weapons/35.png" />
+    <file src="files/images/weapons/36.png" />
+    <file src="files/images/weapons/37.png" />
+    <file src="files/images/weapons/38.png" />
+    <file src="files/images/weapons/39.png" />
+    <file src="files/images/weapons/40.png" />
+    <file src="files/images/weapons/41.png" />
+    <file src="files/images/weapons/42.png" />
+    <file src="files/images/weapons/43.png" />
+    <file src="files/images/weapons/44.png" />
+    <file src="files/images/weapons/45.png" />
+    <file src="files/images/weapons/46.png" />
+    <file src="files/images/weapons/tazer.png" />
+    <file src="files/images/logo3.png" />
+    <file src="files/images/logo2.png" />
+    <file src="files/images/logo1.png" />
+    <file src="files/images/i.png" />
+    <file src="files/images/s.png" />
+    <file src="files/images/w.png" />
+    <file src="files/images/e.png" />
+    <file src="files/images/heart.png" />
+    <file src="files/images/shield.png" />
+    <file src="files/images/cutlery.png" />
+    <file src="files/images/life-ring.png" />
+    <file src="files/images/bolt.png" />
+    <file src="files/images/refresh.png" />
+    <file src="files/images/trashtop.png" />
+    <file src="files/images/trashbody.png" />
+    <file src="files/images/arrows-alt.png" />
+    <file src="files/images/a.png" />
+    <file src="files/images/round.png" />
+    <file src="files/images/ad1.png" />
+    <file src="files/images/ad2.png" />
+    <file src="files/images/vodka.png" />
+    <file src="files/images/light.png" />
+    <file src="files/images/vin.png" />
+    <file src="files/images/drop.png" />
+    <file src="files/images/bone.png" />
+    <file src="files/images/injureLeftArm.png" />
+    <file src="files/images/injureRightArm.png" />
+    <file src="files/images/injureLeftFoot.png" />
+    <file src="files/images/injureRightFoot.png" />
+    
+    <file src="files/images/1.png" />
+    <file src="files/images/2.png" />
+    <file src="files/images/3.png" />
+    <file src="files/images/4.png" />
+    <file src="files/images/5.png" />
+    <file src="files/images/6.png" />
+    
+    <file src="files/images/heart_full.png" />
+    <file src="files/images/heart_outline.png" />
+    <file src="files/images/circle_outline.png" />
+    <file src="files/images/circle.png" />
+    <file src="files/images/hunger.png" />
+    <file src="files/images/thirst.png" />
+    <file src="files/images/shield_full.png" />
+    
+    <file src="files/shaders/monochrome.fx" />
+    
+    <oop>true</oop>
+</meta>

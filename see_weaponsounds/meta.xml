@@ -1,0 +1,24 @@
+<meta>
+    
+    
+    <script type="client" src="sourceC.luac" validate="false" cache="false" />
+    
+    <file src="sounds/explosion/explosion1.wav" />
+    <file src="sounds/explosion/explosion2.wav" />
+    <file src="sounds/explosion/explosion3.wav" />
+    <file src="sounds/reload/mg_clipin.wav" />
+    <file src="sounds/reload/mg_reload.wav" />
+    <file src="sounds/reload/pistol_reload.wav" />
+    <file src="sounds/reload/shotgun_reload.wav" />
+    <file src="sounds/reload/shotgun_shell.wav" />
+    
+    <file src="sounds/weapon/ak.wav" />
+    <file src="sounds/weapon/deagle.wav" />
+    <file src="sounds/weapon/m4.wav" />
+    <file src="sounds/weapon/mp5.wav" />
+    <file src="sounds/weapon/pistole.wav" />
+    <file src="sounds/weapon/shotgun.wav" />
+    <file src="sounds/weapon/sniper.wav" />
+    <file src="sounds/weapon/tec-9.wav" />
+    <file src="sounds/weapon/uzi.wav" />
+</meta>

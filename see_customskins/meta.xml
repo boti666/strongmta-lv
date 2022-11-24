@@ -1,0 +1,15 @@
+<meta>
+    
+    <script src="sourceC.luac" type="client" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    
+    <file src="mods/291.txd" />
+    <file src="mods/291.see" />
+    
+    <file src="mods/292.txd" />
+    <file src="mods/292.see" />
+    
+    <file src="mods/180.txd" />
+    <file src="mods/180.see" />
+    
+</meta>

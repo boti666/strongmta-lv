@@ -1,0 +1,157 @@
+<meta>
+    <download_priority_group>-20</download_priority_group>
+    
+    
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <!--<script type="shared" src="blackjack/sourceG.luac" cache="false" />
+    <script type="server" src="blackjack/sourceS.lua" />
+    <script type="client" src="blackjack/sourceC.luac" cache="false" />-->
+    
+    <script type="shared" src="fortunewheel/sourceG.luac" cache="false" />
+    <script type="server" src="fortunewheel/sourceS.lua" />
+    <script type="client" src="fortunewheel/sourceC.luac" cache="false" />
+    
+    <script type="shared" src="poker/sourceG.luac" cache="false" />
+    <script type="server" src="poker/sourceS.lua" />
+    <script type="client" src="poker/sourceC.luac" cache="false" />
+    
+    <script type="shared" src="roulette/sourceG.luac" cache="false" />
+    <script type="server" src="roulette/sourceS.lua" />
+    <script type="client" src="roulette/sourceC.luac" cache="false" />
+    
+    <min_mta_version server="1.5.7" client="1.5.7" />
+    
+    <file src="files/pokertextura.txd" />
+    <file src="files/nagypoker.col" />
+    <file src="files/nagypoker.dff" />
+    <file src="files/blinds.txd" />
+    <file src="files/kbblackjack.txd" />
+    <file src="files/kb_wheel1.txd" />
+    <file src="files/wheel_o_fortune.dff" />
+    <file src="files/minus.png" />
+    <file src="files/plus.png" />
+    <file src="files/chips.txd" />
+    <file src="files/kbroul2.txd" />
+    
+    <file src="files/chip3.mp3" />
+    <file src="files/chip2.mp3" />
+    <file src="files/chip1.mp3" />
+    
+    <file src="files/chips/500.png" />
+    <file src="files/chips/100.png" />
+    <file src="files/chips/50.png" />
+    <file src="files/chips/25.png" />
+    <file src="files/chips/5.png" />
+    <file src="files/chips/1.png" />
+    
+    <file src="files/sounds/win.mp3" />
+    <file src="files/sounds/dealerwin.mp3" />
+    <file src="files/sounds/blackjack.mp3" />
+    <file src="files/sounds/push.mp3" />
+    <file src="files/sounds/buthover.mp3" />
+    <file src="files/sounds/butclick.mp3" />
+    <file src="files/sounds/butfold.mp3" />
+    <file src="files/sounds/newcardintable.mp3" />
+    
+    <file src="files/Roboto.ttf" />
+    
+    <file src="files/cards/back.png" />
+    <file src="files/cards/backs.png" />
+    <file src="files/cards/backs2.png" />
+    <file src="files/cards/backs3.png" />
+    <file src="files/cards/2-1.png" />
+    <file src="files/cards/2-2.png" />
+    <file src="files/cards/2-3.png" />
+    <file src="files/cards/2-4.png" />
+    <file src="files/cards/3-1.png" />
+    <file src="files/cards/3-2.png" />
+    <file src="files/cards/3-3.png" />
+    <file src="files/cards/3-4.png" />
+    <file src="files/cards/4-1.png" />
+    <file src="files/cards/4-2.png" />
+    <file src="files/cards/4-3.png" />
+    <file src="files/cards/4-4.png" />
+    <file src="files/cards/5-1.png" />
+    <file src="files/cards/5-2.png" />
+    <file src="files/cards/5-3.png" />
+    <file src="files/cards/5-4.png" />
+    <file src="files/cards/6-1.png" />
+    <file src="files/cards/6-2.png" />
+    <file src="files/cards/6-3.png" />
+    <file src="files/cards/6-4.png" />
+    <file src="files/cards/7-1.png" />
+    <file src="files/cards/7-2.png" />
+    <file src="files/cards/7-3.png" />
+    <file src="files/cards/7-4.png" />
+    <file src="files/cards/8-1.png" />
+    <file src="files/cards/8-2.png" />
+    <file src="files/cards/8-3.png" />
+    <file src="files/cards/8-4.png" />
+    <file src="files/cards/9-1.png" />
+    <file src="files/cards/9-2.png" />
+    <file src="files/cards/9-3.png" />
+    <file src="files/cards/9-4.png" />
+    <file src="files/cards/10-1.png" />
+    <file src="files/cards/10-2.png" />
+    <file src="files/cards/10-3.png" />
+    <file src="files/cards/10-4.png" />
+    <file src="files/cards/A-1.png" />
+    <file src="files/cards/A-2.png" />
+    <file src="files/cards/A-3.png" />
+    <file src="files/cards/A-4.png" />
+    <file src="files/cards/J-1.png" />
+    <file src="files/cards/J-2.png" />
+    <file src="files/cards/J-3.png" />
+    <file src="files/cards/J-4.png" />
+    <file src="files/cards/K-1.png" />
+    <file src="files/cards/K-2.png" />
+    <file src="files/cards/K-3.png" />
+    <file src="files/cards/K-4.png" />
+    <file src="files/cards/Q-1.png" />
+    <file src="files/cards/Q-2.png" />
+    <file src="files/cards/Q-3.png" />
+    <file src="files/cards/Q-4.png" />
+    
+    
+    <file src="files/gtaFont.ttf" />
+    <file src="files/wheelf.mp3" />
+    
+    <file src="files/fonts/Roboto.ttf" />
+    <file src="files/fonts/clock.png" />
+    
+    <file src="files/sounds/butmousenavi.mp3" />
+    <file src="files/sounds/cardshuff.mp3" />
+    <file src="files/sounds/chip1.mp3" />
+    <file src="files/sounds/chip3.mp3" />
+    <file src="files/sounds/chip4.mp3" />
+    <file src="files/sounds/chip5mp3.mp3" />
+    <file src="files/sounds/chip6.mp3" />
+    <file src="files/sounds/countdown10sec.mp3" />
+    <file src="files/sounds/dealer2lap.mp3" />
+    <file src="files/sounds/pot1.mp3" />
+    <file src="files/sounds/pot2.mp3" />
+    <file src="files/sounds/saybet.mp3" />
+    <file src="files/sounds/saybetspleasecsakneked.mp3" />
+    <file src="files/sounds/saycall.mp3" />
+    <file src="files/sounds/saycalls.mp3" />
+    <file src="files/sounds/saycheck.mp3" />
+    <file src="files/sounds/saychecks.mp3" />
+    <file src="files/sounds/sayfold.mp3" />
+    <file src="files/sounds/sayfolds.mp3" />
+    <file src="files/sounds/sayraise.mp3" />
+    <file src="files/sounds/sayraises.mp3" />
+    <file src="files/sounds/sayletsee.mp3" />
+    <file src="files/sounds/saywincsakneked.mp3" />
+    
+    <file src="files/fonts/gtaFont.ttf" />
+    
+    <file src="files/sounds/wheel.mp3" />
+    
+    <file src="files/images/time.png" />
+    <file src="files/images/0.png" />
+    <file src="files/images/ball.png" />
+    <file src="files/images/wheel.png" />
+    <file src="files/images/table.png" />
+</meta>

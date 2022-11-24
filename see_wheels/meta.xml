@@ -1,0 +1,26 @@
+<meta>
+    
+    
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/wheels.txd" />
+    <file src="files/wheel1.dff" />
+    <file src="files/wheel_gn1.dff" />
+    <file src="files/wheel_gn2.dff" />
+    <file src="files/wheel_gn3.dff" />
+    <file src="files/wheel_gn4.dff" />
+    <file src="files/wheel_gn5.dff" />
+    <file src="files/wheel_lr1.dff" />
+    <file src="files/wheel_lr2.dff" />
+    <file src="files/wheel_lr3.dff" />
+    <file src="files/wheel_lr4.dff" />
+    <file src="files/wheel_lr5.dff" />
+    <file src="files/wheel_sr1.dff" />
+    <file src="files/wheel_sr2.dff" />
+    <file src="files/wheel_sr3.dff" />
+    <file src="files/wheel_sr4.dff" />
+    <file src="files/wheel_sr5.dff" />
+    <file src="files/wheel_sr6.dff" />
+</meta>

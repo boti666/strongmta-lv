@@ -1,0 +1,50 @@
+<meta>
+    <download_priority_group>-4</download_priority_group>
+    
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="shared" function="getDoorOpenSound" />
+    <export type="shared" function="getDoorCloseSound" />
+    <export type="shared" function="getTheFuelTankTable" />
+    <export type="shared" function="getTheFuelTankSizeOfVehicle" />
+    <export type="shared" function="getTheConsumptionTable" />
+    <export type="shared" function="getTheConsumptionOfVehicle" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/gear.ifp" />
+    <file src="files/ekszij2.mp3" />
+    <file src="files/ekszij1.mp3" />
+    <file src="files/kerreges.mp3" />
+    <file src="files/charger.mp3" />
+    <file src="files/turbo.mp3" />
+    <file src="files/handbrakeon.mp3" />
+    <file src="files/handbrakeoff.mp3" />
+    <file src="files/headlighton.mp3" />
+    <file src="files/headlightoff.mp3" />
+    <file src="files/lockinside.mp3" />
+    <file src="files/unlockinside.mp3" />
+    <file src="files/lockoutside.mp3" />
+    <file src="files/unlockoutside.mp3" />
+    <file src="files/turnsignal.mp3" />
+    <file src="files/key.mp3" />
+    <file src="files/starter.mp3" />
+    <file src="files/belt.mp3" />
+    <file src="files/beltin.mp3" />
+    <file src="files/beltout.mp3" />
+    <file src="files/reverse.mp3" />
+    
+    <file src="files/door/1.wav" />
+    <file src="files/door/2.wav" />
+    <file src="files/door/3.wav" />
+    <file src="files/door/4.wav" />
+    <file src="files/door/5.wav" />
+    <file src="files/door/6.wav" />
+    <file src="files/door/7.wav" />
+    <file src="files/door/8.wav" />
+    <file src="files/door/9.wav" />
+    <file src="files/door/10.wav" />
+</meta>

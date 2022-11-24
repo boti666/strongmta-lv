@@ -1,0 +1,11 @@
+<meta>
+
+    <script src="sourceC.lua" type="client" cache="false" />
+    
+    <file src="files/panel.png" />
+    <file src="files/led.png" />
+    <file src="files/ledgreen.png" />
+    <file src="files/ledorange.png" />
+    <file src="files/ledred.png" />
+
+</meta>

@@ -1,0 +1,14 @@
+<meta>
+    
+    <script src="sourceC.luac" type="client" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    
+    <file src="files/delete.png" />
+    <file src="files/noti.mp3" />
+    <file src="files/noti.png" />
+    <file src="files/refresh.png" />
+    <file src="files/send.png" />
+    
+    <file src="files/Roboto.ttf" />
+    
+</meta>

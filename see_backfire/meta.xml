@@ -1,0 +1,17 @@
+<meta>
+    
+    <download_priority_group>-15</download_priority_group>
+    
+    <script type="server" src="SourceS.lua" />
+    <script type="client" src="SourceC.luac" cache="false" />
+    
+    <file src="Sounds/1.wav" />
+    <file src="Sounds/2.wav" />
+    <file src="Sounds/3.wav" />
+    <file src="Sounds/4.wav" />
+    <file src="Sounds/5.wav" />
+    <file src="Sounds/6.wav" />
+    
+    <min_mta_version server="1.5.7" client="1.5.7" />
+    
+</meta>

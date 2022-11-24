@@ -1,0 +1,23 @@
+<meta>
+    <download_priority_group>-1</download_priority_group>
+    
+    
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="client" function="makePreview" />
+    <export type="client" function="destroyPreview" />
+    <export type="client" function="drawPreview" />
+    <export type="client" function="capturePreview" />
+    <export type="client" function="setProjection" />
+    <export type="client" function="setDistanceSpread" />
+    <export type="client" function="setPositionOffsets" />
+    <export type="client" function="setRotationOffsets" />
+    <export type="client" function="setRotation" />
+    <export type="client" function="setPreviewFOV" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="ped.fx" />
+    <file src="vehicle.fx" />
+    <file src="object.fx" />
+</meta>

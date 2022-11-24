@@ -1,0 +1,12 @@
+<metaConfig>
+    
+    
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    
+    <file src="files/shader.fx" />
+    
+    <oop>true</oop>
+    
+</metaConfig>

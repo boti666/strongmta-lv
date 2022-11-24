@@ -1,0 +1,27 @@
+<meta>
+    <download_priority_group>-10</download_priority_group>
+    
+    
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <export type="client" function="getSizeForPreview" />
+    <export type="client" function="previewSpinner" />
+    <export type="client" function="getPreviewColor" />
+    <export type="client" function="setPreviewColor" />
+    <export type="client" function="getSpinnerSize" />
+    <export type="client" function="resetSpinner" />
+    <export type="client" function="getOriginalSpinner" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="tint.fx" />
+    <file src="spinners/spinner.txd" />
+    <file src="spinners/1.dff" />
+    <file src="spinners/2.dff" />
+    <file src="spinners/3.dff" />
+    <file src="spinners/4.dff" />
+    <file src="spinners/5.dff" />
+    <file src="spinners/6.dff" />
+    <file src="spinners/7.dff" />
+    <file src="spinners/8.dff" />
+</meta>

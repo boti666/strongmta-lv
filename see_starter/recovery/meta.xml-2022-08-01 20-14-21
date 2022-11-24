@@ -1,0 +1,5 @@
+<meta>
+	<script type="server" src="sourceS.lua" cache = "false" />
+
+	<min_mta_version client="1.5.7" server="1.5.7" />
+</meta>

@@ -1,0 +1,28 @@
+<meta>
+	<map src="maps/projectlv-4dragon.map" />
+	<map src="maps/projectlv-sasdbf.map" />
+	<map src="maps/drag_airport.map" />
+	<map src="maps/quarrylake.map" />
+	<map src="maps/fc_hospital.map" />
+	<map src="maps/lv_crab_bay.map" />
+	<!--map src="maps/lasvegas.map" /-->
+	<map src="maps/lvproject-lezarasok.map" />
+	<map src="maps/projectlv-bblezaras.map" />
+	<map src="maps/projectlv-palyalezaras.map" />
+	<map src="maps/borders.map" />
+	<map src="maps/hospital.map" />
+	<map src="maps/factoryjob.map" />
+	<map src="maps/truckjob.map" />
+	<map src="maps/postjob.map" />
+	<map src="maps/Redline_2018_11_14-hotfix.map" />
+	<map src="maps/Italian-Criminals-hq.map" />
+	<map src="maps/lvmpd_exterior_20191029.map" />
+	<map src="maps/lvmpd_interior_20191029.map" />
+	<map src="maps/swat_exterior_20191029.map" />
+	<map src="maps/swat_interior_20191029.map" />
+
+	<script type="server" src="sourceS.luac" />
+	<script type="client" src="sourceC.luac" cache="false" />
+
+	<min_mta_version client="1.5.7" server="1.5.7" />
+</meta>

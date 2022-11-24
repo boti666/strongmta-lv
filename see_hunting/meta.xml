@@ -1,0 +1,22 @@
+<meta>
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/fonts/Roboto.ttf" />
+    
+    <file src="files/sounds/forestsound.mp3" />
+    <file src="files/sounds/skinning.ogg" />
+    <file src="files/sounds/bearattack.mp3" />
+    <file src="files/sounds/beardead.mp3" />
+    <file src="files/sounds/foxattack.mp3" />
+    <file src="files/sounds/foxdead.mp3" />
+    <file src="files/sounds/wolfattack.mp3" />
+    <file src="files/sounds/wolfdead.mp3" />
+    
+    <file src="files/sounds/alienattack.ogg" />
+    <file src="files/sounds/aliendead.ogg" />
+</meta>

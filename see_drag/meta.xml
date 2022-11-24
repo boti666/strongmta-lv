@@ -1,0 +1,17 @@
+<meta>
+    
+    <script src="sourceG.luac" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+    <script src="sourceC.luac" type="client" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/sand.png" />
+    <file src="files/tire.png" />
+    <file src="files/screen.png" />
+    <file src="files/white.png" />
+    <file src="files/ocr.ttf" />
+    <file src="files/lamp.mp3" />
+    <file src="files/start.mp3" />
+    <file src="files/texturechanger.fx" />
+</meta>

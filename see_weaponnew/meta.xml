@@ -1,0 +1,45 @@
+<meta>
+    <download_priority_group>-30</download_priority_group>
+    
+    
+    <script type="shared" src="sourceG.luac" cache="false" />
+    <script type="server" src="sourceS.lua" />
+    <script type="server" src="crab/sourceS.lua" />
+    <script type="client" src="sourceC.luac" cache="false" />
+    <script type="client" src="crab/sourceC.luac" cache="false" />
+    
+    <min_mta_version client="1.5.7" server="1.5.7" />
+    
+    <file src="files/cj_crate_will.txd" />
+    <file src="files/cage.txd" />
+    <file src="files/cage.col" />
+    <file src="files/cage.dff" />
+    <file src="files/deadfish.dff" />
+    <file src="files/buoy.txd" />
+    <file src="files/buoy.dff" />
+    <file src="files/crab.dff" />
+    
+    <file src="files/circle.png" />
+    <file src="files/grid.png" />
+    <file src="files/grid2.png" />
+    <file src="files/rotate.png" />
+    <file src="files/point.png" />
+    <file src="files/ship.png" />
+    <file src="files/soundoff.png" />
+    <file src="files/soundon.png" />
+    <file src="files/crane.png" />
+    <file src="files/crane_down.png" />
+    <file src="files/crane_left.png" />
+    <file src="files/cage_fish.png" />
+    <file src="files/cage_down.png" />
+    <file src="files/cage_up.png" />
+    <file src="files/crab.png" />
+    
+    <file src="files/radar.mp3" />
+    <file src="files/splash.mp3" />
+    <file src="files/crane_4.mp3" />
+    <file src="files/crane_15.mp3" />
+    
+    <file src="files/Roboto.ttf" />
+    <file src="files/BrushScriptStd.ttf" />
+</meta>

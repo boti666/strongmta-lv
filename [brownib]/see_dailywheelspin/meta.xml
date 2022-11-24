@@ -1,0 +1,9 @@
+<meta>
+    <script src="sourceC.lua" type="client" cache="false" />
+    <script src="sourceG.lua" type="shared" cache="false" />
+    <script src="sourceS.lua" type="server" />
+
+    <file src="files/models/fortunewheel.dff" />
+    <file src="files/models/fortunewheel.txd" />
+    <file src="files/models/fortunewheel.col" />
+</meta>
